@@ -6028,7 +6028,7 @@ Also note, the SNAP packages are for using a snappable style connector. We sell 
 <part name="J4" library="TAB" deviceset="GATOR" device=""/>
 <part name="GND3" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="SUPPLY4" library="SparkFun-PowerSymbols" deviceset="VIN" device=""/>
-<part name="LOGO1" library="SparkFun-Aesthetics" deviceset="SFE_LOGO_FLAME" device=".2_INCH"/>
+<part name="LOGO1" library="SparkFun-Aesthetics" deviceset="SFE_LOGO_FLAME" device=".3_INCH" value="SFE_LOGO_FLAME.3_INCH"/>
 <part name="LS1" library="SparkFun-Electromechanical" deviceset="BUZZER" device="-SMD"/>
 <part name="S1" library="SparkFun-Switches" deviceset="SWITCH-SPDT" device="-SMD-AYZ0202"/>
 <part name="D6" library="SparkFun-DiscreteSemi" deviceset="DIODE-ZENER" device="-MM3Z3V3T1G" value="3.3V"/>
@@ -6523,15 +6523,6 @@ GPIO/AIN</text>
 <wire x1="208.28" y1="167.64" x2="205.74" y2="167.64" width="0.1524" layer="91"/>
 <label x="205.74" y="167.64" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
-<segment>
-<pinref part="R1" gate="G$1" pin="2"/>
-<wire x1="93.98" y1="104.14" x2="88.9" y2="104.14" width="0.1524" layer="91"/>
-<pinref part="D6" gate="G$1" pin="C"/>
-<wire x1="88.9" y1="104.14" x2="83.82" y2="104.14" width="0.1524" layer="91"/>
-<wire x1="88.9" y1="101.6" x2="88.9" y2="104.14" width="0.1524" layer="91"/>
-<junction x="88.9" y="104.14"/>
-<label x="83.82" y="104.14" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
-</segment>
 </net>
 <net name="P1" class="0">
 <segment>
@@ -6785,11 +6776,6 @@ GPIO/AIN</text>
 <label x="106.68" y="104.14" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
-<pinref part="S3" gate="1" pin="O"/>
-<wire x1="215.9" y1="170.18" x2="218.44" y2="170.18" width="0.1524" layer="91"/>
-<label x="218.44" y="170.18" size="1.27" layer="95" font="vector" xref="yes"/>
-</segment>
-<segment>
 <pinref part="R1" gate="G$1" pin="1"/>
 <wire x1="104.14" y1="104.14" x2="106.68" y2="104.14" width="0.1524" layer="91"/>
 </segment>
@@ -6969,6 +6955,22 @@ GPIO/AIN</text>
 <pinref part="R11" gate="G$1" pin="1"/>
 <wire x1="193.04" y1="63.5" x2="195.58" y2="63.5" width="0.1524" layer="91"/>
 <label x="195.58" y="63.5" size="1.27" layer="95" font="vector" xref="yes"/>
+</segment>
+</net>
+<net name="PD" class="0">
+<segment>
+<pinref part="R1" gate="G$1" pin="2"/>
+<wire x1="93.98" y1="104.14" x2="88.9" y2="104.14" width="0.1524" layer="91"/>
+<pinref part="D6" gate="G$1" pin="C"/>
+<wire x1="88.9" y1="104.14" x2="83.82" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="101.6" x2="88.9" y2="104.14" width="0.1524" layer="91"/>
+<junction x="88.9" y="104.14"/>
+<label x="83.82" y="104.14" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="S3" gate="1" pin="O"/>
+<wire x1="215.9" y1="170.18" x2="218.44" y2="170.18" width="0.1524" layer="91"/>
+<label x="218.44" y="170.18" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
 </nets>
