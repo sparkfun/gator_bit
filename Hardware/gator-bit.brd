@@ -156,7 +156,7 @@
 </layers>
 <board>
 <plain>
-<text x="55.245" y="-9.525" size="1.778" layer="51" font="vector" ratio="15">Mary West</text>
+<text x="54.61" y="-24.765" size="1.778" layer="51" font="vector" ratio="15">Mary West</text>
 <text x="103.98125" y="1.74625" size="1.778" layer="16" font="vector" ratio="15" rot="SMR0" align="center">v10</text>
 <text x="76.99375" y="89.8525" size="1.778" layer="47" font="vector" ratio="15">* All dimensions
   are in inches</text>
@@ -174,7 +174,7 @@
 <dimension x1="111.76" y1="63.5" x2="111.76" y2="2.54" x3="117.1575" y3="33.02" textsize="1.778" textratio="15" layer="47" unit="inch"/>
 <dimension x1="111.76" y1="2.54" x2="113.50625" y2="2.54" x3="112.633125" y3="-1.42875" textsize="1.778" layer="47" unit="inch"/>
 <dimension x1="2.54" y1="63.5" x2="0.79375" y2="63.5" x3="1.666875" y3="68.2625" textsize="1.778" layer="47" unit="inch"/>
-<text x="9.398" y="-26.035" size="2.54" layer="51">Solder Mask: Black Gloss</text>
+<text x="4.318" y="-40.64" size="2.54" layer="51">Solder Mask: Black Gloss</text>
 <text x="37.084" y="31.5595" size="6.35" layer="21">gator:bit</text>
 <dimension x1="114.3" y1="67.31" x2="57.15" y2="67.31" x3="85.725" y3="84.455" textsize="1.778" layer="47" unit="inch"/>
 <text x="24.129996875" y="11.43" size="2.286" layer="21" font="vector" ratio="15">P0</text>
@@ -209,11 +209,11 @@
 <dimension x1="5.715" y1="15.24" x2="0" y2="15.24" x3="2.8575" y3="-16.51" textsize="1.778" layer="47" unit="inch"/>
 <dimension x1="92.71" y1="53.34" x2="0" y2="53.34" x3="46.355" y3="97.79" textsize="1.778" layer="47" unit="inch"/>
 <dimension x1="92.71" y1="39.37" x2="0" y2="39.37" x3="46.355" y3="101.6" textsize="1.778" layer="47" unit="inch"/>
-<dimension x1="39.37" y1="25.4" x2="0" y2="25.4" x3="19.685" y3="25.4" textsize="1.778" layer="47" unit="inch"/>
-<dimension x1="48.26" y1="25.4" x2="0" y2="25.4" x3="24.13" y3="29.21" textsize="1.778" layer="47" unit="inch"/>
-<dimension x1="57.15" y1="25.4" x2="0" y2="25.4" x3="28.575" y3="33.02" textsize="1.778" layer="47" unit="inch"/>
-<dimension x1="66.04" y1="25.4" x2="0" y2="25.4" x3="33.02" y3="36.83" textsize="1.778" layer="47" unit="inch"/>
-<dimension x1="74.93" y1="25.4" x2="0" y2="25.4" x3="37.465" y3="43.18" textsize="1.778" layer="47" unit="inch"/>
+<dimension x1="39.37" y1="25.4" x2="0" y2="25.4" x3="19.685" y3="83.82" textsize="1.778" layer="47" unit="inch"/>
+<dimension x1="48.26" y1="25.4" x2="0" y2="25.4" x3="24.13" y3="73.025" textsize="1.778" layer="47" unit="inch"/>
+<dimension x1="57.15" y1="25.4" x2="0" y2="25.4" x3="28.575" y3="85.09" textsize="1.778" layer="47" unit="inch"/>
+<dimension x1="66.04" y1="25.4" x2="0" y2="25.4" x3="33.02" y3="68.58" textsize="1.778" layer="47" unit="inch"/>
+<dimension x1="74.93" y1="25.4" x2="0" y2="25.4" x3="37.465" y3="76.2" textsize="1.778" layer="47" unit="inch"/>
 <dimension x1="57.1412375" y1="48.947525" x2="0" y2="49.061828125" x3="28.652865625" y3="90.12030625" textsize="1.778" layer="47" unit="inch"/>
 <text x="91.77929375" y="57.5961" size="1.27" layer="21" font="vector" ratio="15">5V</text>
 <text x="85.895534375" y="53.889503125" size="1.27" layer="21" font="vector" ratio="15">OFF</text>
@@ -349,6 +349,15 @@
 <wire x1="103.505" y1="17.145" x2="103.505" y2="13.335" width="0.254" layer="21"/>
 <wire x1="103.505" y1="13.335" x2="104.775" y2="12.065" width="0.254" layer="21" curve="90"/>
 <wire x1="104.775" y1="12.065" x2="113.03" y2="12.065" width="0.254" layer="21"/>
+<wire x1="38.1" y1="20.32" x2="34.925" y2="23.495" width="0.254" layer="21" curve="-90"/>
+<wire x1="34.925" y1="23.495" x2="34.925" y2="26.035" width="0.254" layer="21"/>
+<wire x1="34.925" y1="26.035" x2="38.735" y2="29.845" width="0.254" layer="21" curve="-90"/>
+<wire x1="38.735" y1="29.845" x2="77.47" y2="29.845" width="0.254" layer="21"/>
+<wire x1="77.47" y1="29.845" x2="80.01" y2="27.305" width="0.254" layer="21" curve="-90"/>
+<wire x1="80.01" y1="27.305" x2="80.01" y2="22.225" width="0.254" layer="21"/>
+<wire x1="80.01" y1="22.225" x2="78.105" y2="20.32" width="0.254" layer="21" curve="-90"/>
+<wire x1="78.105" y1="20.32" x2="38.1" y2="20.32" width="0.254" layer="21"/>
+<text x="38.51544375" y="15.204596875" size="1.778" layer="21" font="vector" ratio="15">INPUT/OUTPUT</text>
 </plain>
 <libraries>
 <library name="SparkFun-Aesthetics">
@@ -1196,7 +1205,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 </pass>
 </autorouter>
 <elements>
-<element name="FRAME1" library="SparkFun-Aesthetics" package="CREATIVE_COMMONS" value="FRAME-LETTER" x="23.495" y="-8.89"/>
+<element name="FRAME1" library="SparkFun-Aesthetics" package="CREATIVE_COMMONS" value="FRAME-LETTER" x="23.495" y="-24.765"/>
 <element name="FD1" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="8.28675" y="3.1115"/>
 <element name="FD2" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="7.84225" y="62.13475" smashed="yes"/>
 <element name="H1" library="SparkFun-Electromechanical" package="STAND-OFF" value="STAND-OFF" x="2.54" y="63.5"/>
@@ -1208,7 +1217,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <element name="U2" library="Micro_Bit_Parts" package="MICRO:BIT_RA_PTH" value="micro:bit" x="57.1412375" y="48.947525" rot="R180">
 <attribute name="PROD_ID" value="CONN-13452" x="57.1412375" y="48.947525" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="U$4" library="SparkFun-Aesthetics" package="ORDERING_INSTRUCTIONS" value="" x="4.953" y="-12.192"/>
+<element name="U$4" library="SparkFun-Aesthetics" package="ORDERING_INSTRUCTIONS" value="" x="1.778" y="-26.797"/>
 <element name="J19" library="TAB" package="GATOR" value="GATOR" x="106.68" y="34.925" rot="R90"/>
 <element name="J20" library="TAB" package="GATOR" value="GATOR" x="26.035" y="7.62"/>
 <element name="J21" library="TAB" package="GATOR" value="GATOR" x="36.83" y="7.62"/>
@@ -1358,7 +1367,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <element name="U4" library="SparkFun-IC-Power" package="SOT23-5" value="MIC5219 3.3V" x="95.885" y="9.525" rot="MR180">
 <attribute name="PROD_ID" value="VREG-09872" x="92.075" y="2.54" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
-<element name="FRAME3" library="SparkFun-Aesthetics" package="CREATIVE_COMMONS" value="FRAME-LETTER" x="16.51" y="-81.28"/>
+<element name="FRAME3" library="SparkFun-Aesthetics" package="CREATIVE_COMMONS" value="FRAME-LETTER" x="23.495" y="-24.765"/>
 <element name="U1" library="SparkFun-IC-Power" package="SOT23-5" value="5V" x="95.885" y="15.875" rot="MR0">
 <attribute name="PROD_ID" value="VREG-00823" x="95.885" y="15.875" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
