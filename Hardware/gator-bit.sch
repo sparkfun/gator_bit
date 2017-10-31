@@ -7919,6 +7919,13 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pin name="V_BATT" x="0" y="0" visible="off" length="short" direction="sup" rot="R90"/>
 <text x="0" y="2.794" size="1.778" layer="96" align="bottom-center">&gt;VALUE</text>
 </symbol>
+<symbol name="5V">
+<description>&lt;h3&gt;5V Voltage Supply&lt;/h3&gt;</description>
+<wire x1="0.762" y1="1.27" x2="0" y2="2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="2.54" x2="-0.762" y2="1.27" width="0.254" layer="94"/>
+<pin name="5V" x="0" y="0" visible="off" length="short" direction="sup" rot="R90"/>
+<text x="0" y="2.794" size="1.778" layer="96" align="bottom-center">&gt;VALUE</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="GND" prefix="GND">
@@ -7982,6 +7989,20 @@ You are welcome to use this library for commercial purposes. For attribution, we
 &lt;p&gt;Generic symbol for the battery input to a system.&lt;/p&gt;</description>
 <gates>
 <gate name="G$1" symbol="V_BATT" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="5V" prefix="SUPPLY">
+<description>&lt;h3&gt;5V Supply Symbol&lt;/h3&gt;
+&lt;p&gt;Power supply symbol for a specifically-stated 5V source.&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="5V" x="0" y="0"/>
 </gates>
 <devices>
 <device name="">
@@ -8572,6 +8593,37 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="0.762" y="-1.397" size="0.6096" layer="25" font="vector" ratio="20" rot="R180" align="bottom-center">&gt;Name</text>
 <text x="0" y="1.397" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center">&gt;Value</text>
 </package>
+<package name="SWITCH_DPDT_PTH_GPI-152-3013">
+<description>&lt;h3&gt;CW Industries  GPI-152-3013  DPDT Switch - PTH&lt;/h3&gt;
+&lt;p&gt;Double-pole, double-throw switches.&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://switches-connectors-custom.cwind.com/Asset/GPI-152-Dimension-DRAWING.pdf"&gt;Dimensional Drawing&lt;/a&gt;&lt;/p&gt;</description>
+<wire x1="12.7" y1="5.13" x2="-12.7" y2="5.13" width="0.127" layer="51"/>
+<wire x1="-12.7" y1="5.13" x2="-12.7" y2="-5.13" width="0.127" layer="51"/>
+<wire x1="-12.7" y1="-5.13" x2="12.7" y2="-5.13" width="0.127" layer="51"/>
+<wire x1="12.7" y1="-5.13" x2="12.7" y2="5.13" width="0.127" layer="51"/>
+<wire x1="-9.5" y1="5.4" x2="9.5" y2="5.4" width="0.2032" layer="21"/>
+<wire x1="-9.4" y1="-5.4" x2="9.6" y2="-5.4" width="0.2032" layer="21"/>
+<wire x1="-13" y1="5" x2="-13" y2="-5" width="0.2032" layer="21"/>
+<wire x1="13" y1="5" x2="13" y2="-5" width="0.2032" layer="21"/>
+<wire x1="2" y1="5.2" x2="1.9" y2="5.2" width="0.127" layer="51"/>
+<wire x1="1.9" y1="5.2" x2="1.9" y2="9.1" width="0.127" layer="51"/>
+<wire x1="1.9" y1="9.1" x2="7" y2="9.1" width="0.127" layer="51"/>
+<wire x1="7" y1="9.1" x2="7" y2="5.2" width="0.127" layer="51"/>
+<circle x="10.31" y="0" radius="0.9518" width="0.127" layer="51"/>
+<circle x="-10.69" y="0" radius="0.9518" width="0.127" layer="51"/>
+<pad name="C@1" x="0" y="3.455" drill="1.65"/>
+<pad name="C@2" x="0" y="-3.455" drill="1.65"/>
+<pad name="21" x="4.6" y="-3.455" drill="1.65"/>
+<pad name="11" x="-4.6" y="-3.455" drill="1.65"/>
+<pad name="10" x="-4.6" y="3.455" drill="1.65"/>
+<pad name="20" x="4.6" y="3.455" drill="1.65"/>
+<pad name="P$7" x="11.43" y="4.85" drill="1.65"/>
+<pad name="P$8" x="-11.43" y="4.85" drill="1.65"/>
+<pad name="P$9" x="-11.43" y="-4.85" drill="1.65"/>
+<pad name="P$10" x="11.43" y="-4.85" drill="1.65"/>
+<text x="0" y="-5.715" size="0.6096" layer="25" font="vector" ratio="20" rot="R180" align="bottom-center">&gt;Name</text>
+<text x="0" y="5.588" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center">&gt;Value</text>
+</package>
 </packages>
 <symbols>
 <symbol name="TOGGLE">
@@ -8588,6 +8640,38 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pin name="P" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
 <pin name="S" x="5.08" y="-2.54" visible="off" length="short" direction="pas" rot="R180"/>
 <pin name="O" x="5.08" y="2.54" visible="off" length="short" direction="pas" rot="R180"/>
+</symbol>
+<symbol name="SWITCH-DPDT">
+<description>&lt;h3&gt;Double-Pole, Double-Throw (DPDT) Switch&lt;/h3&gt;
+&lt;p&gt;Double-pole, double-throw switches.&lt;/p&gt;</description>
+<wire x1="1.27" y1="5.08" x2="-2.286" y2="2.794" width="0.254" layer="94"/>
+<wire x1="-2.286" y1="-4.826" x2="1.27" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="6.35" x2="2.54" y2="7.62" width="0.254" layer="94"/>
+<wire x1="2.54" y1="7.62" x2="-2.54" y2="7.62" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="7.62" x2="-2.54" y2="3.81" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="1.27" x2="-2.54" y2="-3.81" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-6.35" x2="-2.54" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-10.16" x2="2.54" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-10.16" x2="2.54" y2="-8.89" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-6.35" x2="2.54" y2="-3.81" width="0.254" layer="94"/>
+<wire x1="2.54" y1="3.81" x2="2.54" y2="1.27" width="0.254" layer="94"/>
+<wire x1="0" y1="4.064" x2="0" y2="2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="1.27" x2="0" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="0" y1="-2.54" x2="0" y2="-3.302" width="0.254" layer="94"/>
+<circle x="-2.54" y="2.54" radius="0.3592" width="0.254" layer="94"/>
+<circle x="2.54" y="5.08" radius="0.3592" width="0.254" layer="94"/>
+<circle x="2.54" y="0" radius="0.3592" width="0.254" layer="94"/>
+<circle x="2.54" y="-2.54" radius="0.3592" width="0.254" layer="94"/>
+<circle x="2.54" y="-7.62" radius="0.3592" width="0.254" layer="94"/>
+<circle x="-2.54" y="-5.08" radius="0.3592" width="0.254" layer="94"/>
+<text x="0" y="7.874" size="1.778" layer="95" font="vector" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-10.414" size="1.778" layer="96" font="vector" align="top-center">&gt;VALUE</text>
+<pin name="1" x="5.08" y="5.08" visible="off" length="short" rot="R180"/>
+<pin name="2" x="-5.08" y="2.54" visible="off" length="short"/>
+<pin name="3" x="5.08" y="0" visible="off" length="short" rot="R180"/>
+<pin name="4" x="5.08" y="-2.54" visible="off" length="short" rot="R180"/>
+<pin name="5" x="-5.08" y="-5.08" visible="off" length="short"/>
+<pin name="6" x="5.08" y="-7.62" visible="off" length="short" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -8684,6 +8768,56 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <technology name="">
 <attribute name="PROD_ID" value="SWCH-10651"/>
 <attribute name="SF_SKU" value="COM-10860"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SWITCH-DPDT" prefix="S" uservalue="yes">
+<description>&lt;h3&gt;Double-Pole, Double-Throw (DPDT) Switch&lt;/h3&gt;
+&lt;p&gt;Double-pole, double-throw switches.&lt;/p&gt;
+&lt;h4&gt;Variant Overview&lt;/h4&gt;
+&lt;h5&gt;PTH-GPI-152-3013&lt;/h5&gt;
+&lt;ul&gt;
+&lt;li&gt;Used on &lt;a href="https://www.sparkfun.com/products/11345"&gt;SparkFun Geiger Counter&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h5&gt;SMD-AY0202&lt;/h5&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/597"&gt;Surface Mount DPDT Switch&lt;/a&gt; (COM-00597)&lt;/li&gt;
+&lt;li&gt;Used on e.g. &lt;a href="https://www.sparkfun.com/products/12049"&gt;LilyPad Arduino USB - ATmega32U4 Board&lt;/a&gt;
+&lt;/ul&gt;</description>
+<gates>
+<gate name="G$1" symbol="SWITCH-DPDT" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-SMD-AYZ0202" package="SWITCH_DPDT_SMD_AYZ0202">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="SWCH-08179"/>
+<attribute name="SF_SKU" value="COM-00597"/>
+</technology>
+</technologies>
+</device>
+<device name="-PTH-GPI-152-3013" package="SWITCH_DPDT_PTH_GPI-152-3013">
+<connects>
+<connect gate="G$1" pin="1" pad="10"/>
+<connect gate="G$1" pin="2" pad="C@1"/>
+<connect gate="G$1" pin="3" pad="20"/>
+<connect gate="G$1" pin="4" pad="11"/>
+<connect gate="G$1" pin="5" pad="C@2"/>
+<connect gate="G$1" pin="6" pad="21"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="SWCH-10554"/>
 </technology>
 </technologies>
 </device>
@@ -9152,11 +9286,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </device>
 </devices>
 </deviceset>
-<deviceset name="274KOHM" prefix="R">
-<description>100kΩ resistor
-
-A resistor is a passive two-terminal electrical component that implements electrical resistance as a circuit element. Resistors act to reduce current flow, and, at the same time, act to lower voltage levels within circuits. - Wikipedia
-https://www.digikey.com/product-detail/en/yageo/RC0603FR-07274KL/311-274KHRTR-ND/727106</description>
+<deviceset name="523KOHM" prefix="R">
 <gates>
 <gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
 </gates>
@@ -9168,8 +9298,8 @@ https://www.digikey.com/product-detail/en/yageo/RC0603FR-07274KL/311-274KHRTR-ND
 </connects>
 <technologies>
 <technology name="OHMS-0603-1/10W-1%">
-<attribute name="PROD_ID" value="" constant="no"/>
-<attribute name="VALUE" value="" constant="no"/>
+<attribute name="PROD_ID" value="RES-XXXXX" constant="no"/>
+<attribute name="VALUE" value="523k" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -9308,6 +9438,106 @@ Commonly used for small ceramic capacitors. Like our 0.1uF (http://www.sparkfun.
 <wire x1="2.59" y1="-1.45" x2="-2.59" y2="-1.45" width="0.0508" layer="39"/>
 <wire x1="-2.59" y1="-1.45" x2="-2.59" y2="1.45" width="0.0508" layer="39"/>
 </package>
+<package name="EIA3216">
+<description>Generic EIA 3216 (1206) polarized tantalum capacitor</description>
+<wire x1="-1" y1="-1.2" x2="-2.5" y2="-1.2" width="0.2032" layer="51"/>
+<wire x1="-2.5" y1="-1.2" x2="-2.5" y2="1.2" width="0.2032" layer="51"/>
+<wire x1="-2.5" y1="1.2" x2="-1" y2="1.2" width="0.2032" layer="51"/>
+<wire x1="1" y1="-1.2" x2="2.1" y2="-1.2" width="0.2032" layer="51"/>
+<wire x1="2.1" y1="-1.2" x2="2.5" y2="-0.8" width="0.2032" layer="51"/>
+<wire x1="2.5" y1="-0.8" x2="2.5" y2="0.8" width="0.2032" layer="51"/>
+<wire x1="2.5" y1="0.8" x2="2.1" y2="1.2" width="0.2032" layer="51"/>
+<wire x1="2.1" y1="1.2" x2="1" y2="1.2" width="0.2032" layer="51"/>
+<wire x1="2.413" y1="0.762" x2="2.413" y2="-0.762" width="0.2032" layer="21"/>
+<smd name="-" x="-1.4" y="0" dx="1.6" dy="1.4" layer="1" rot="R90"/>
+<smd name="+" x="1.4" y="0" dx="1.6" dy="1.4" layer="1" rot="R90"/>
+<text x="0" y="1.143" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.143" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+</package>
+<package name="0603-POLAR">
+<description>&lt;p&gt;&lt;b&gt;Polarized 1608 (0603) package&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;0.2mm courtyard excess rounded to nearest 0.05mm.&lt;/p&gt;</description>
+<wire x1="-1.1" y1="-0.8" x2="-1.7" y2="-0.8" width="0.2032" layer="51"/>
+<wire x1="-1.7" y1="-0.8" x2="-1.7" y2="0.8" width="0.2032" layer="51"/>
+<wire x1="-1.7" y1="0.8" x2="-1.1" y2="0.8" width="0.2032" layer="51"/>
+<wire x1="1.1" y1="-0.8" x2="1.5" y2="-0.8" width="0.2032" layer="51"/>
+<wire x1="1.5" y1="-0.8" x2="1.9" y2="-0.4" width="0.2032" layer="51"/>
+<wire x1="1.9" y1="-0.4" x2="1.9" y2="0.4" width="0.2032" layer="51"/>
+<wire x1="1.9" y1="0.4" x2="1.5" y2="0.8" width="0.2032" layer="51"/>
+<wire x1="1.5" y1="0.8" x2="1.1" y2="0.8" width="0.2032" layer="51"/>
+<wire x1="-1.6" y1="0.7" x2="1.6" y2="0.7" width="0.0508" layer="39"/>
+<wire x1="1.6" y1="0.7" x2="1.6" y2="-0.7" width="0.0508" layer="39"/>
+<wire x1="1.6" y1="-0.7" x2="-1.6" y2="-0.7" width="0.0508" layer="39"/>
+<wire x1="-1.6" y1="-0.7" x2="-1.6" y2="0.7" width="0.0508" layer="39"/>
+<wire x1="-0.356" y1="0.432" x2="0.356" y2="0.432" width="0.1016" layer="51"/>
+<wire x1="-0.356" y1="-0.419" x2="0.356" y2="-0.419" width="0.1016" layer="51"/>
+<smd name="-" x="-0.85" y="0" dx="1.1" dy="1" layer="1"/>
+<smd name="+" x="0.85" y="0" dx="1.1" dy="1" layer="1"/>
+<text x="0" y="0.762" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-0.762" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+<rectangle x1="-0.8382" y1="-0.4699" x2="-0.3381" y2="0.4801" layer="51"/>
+<rectangle x1="0.3302" y1="-0.4699" x2="0.8303" y2="0.4801" layer="51"/>
+<wire x1="1.651" y1="0.508" x2="1.651" y2="-0.508" width="0.127" layer="21"/>
+</package>
+<package name="EIA3528">
+<description>Generic EIA 3528 polarized tantalum capacitor</description>
+<wire x1="-0.9" y1="-1.6" x2="-2.6" y2="-1.6" width="0.2032" layer="51"/>
+<wire x1="-2.6" y1="-1.6" x2="-2.6" y2="1.55" width="0.2032" layer="51"/>
+<wire x1="-2.6" y1="1.55" x2="-0.9" y2="1.55" width="0.2032" layer="51"/>
+<wire x1="1" y1="-1.55" x2="2.2" y2="-1.55" width="0.2032" layer="51"/>
+<wire x1="2.2" y1="-1.55" x2="2.6" y2="-1.2" width="0.2032" layer="51"/>
+<wire x1="2.6" y1="-1.2" x2="2.6" y2="1.25" width="0.2032" layer="51"/>
+<wire x1="2.6" y1="1.25" x2="2.2" y2="1.55" width="0.2032" layer="51"/>
+<wire x1="2.2" y1="1.55" x2="1" y2="1.55" width="0.2032" layer="51"/>
+<wire x1="2.641" y1="1.311" x2="2.641" y2="-1.286" width="0.2032" layer="21" style="longdash"/>
+<smd name="C" x="-1.65" y="0" dx="2.5" dy="1.2" layer="1" rot="R90"/>
+<smd name="A" x="1.65" y="0" dx="2.5" dy="1.2" layer="1" rot="R90"/>
+<text x="0" y="1.778" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.778" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+</package>
+<package name="CPOL-RADIAL-2.5MM-5MM">
+<description>2.5 mm spaced PTHs with 5 mm diameter outline and standard solder mask</description>
+<pad name="1" x="1.25" y="0" drill="0.7" diameter="1.651" shape="square"/>
+<pad name="2" x="-1.25" y="0" drill="0.7" diameter="1.651"/>
+<circle x="0" y="0" radius="2.5" width="0.2032" layer="21"/>
+<text x="0" y="2.667" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;Name</text>
+<text x="0" y="-2.667" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;Value</text>
+<wire x1="-0.742" y1="1.397" x2="-1.758" y2="1.397" width="0.2032" layer="21"/>
+<wire x1="1.758" y1="1.397" x2="0.742" y2="1.397" width="0.2032" layer="21"/>
+<wire x1="1.25" y1="1.905" x2="1.25" y2="0.889" width="0.2032" layer="21"/>
+</package>
+<package name="CPOL-RADIAL-2.5MM-5MM-KIT">
+<description>2.5 mm spaced PTHs with top copper masked</description>
+<circle x="0" y="0" radius="2.5" width="0.2032" layer="21"/>
+<pad name="1" x="1.25" y="0" drill="0.7" diameter="1.651" shape="square" stop="no"/>
+<pad name="2" x="-1.25" y="0" drill="0.7" diameter="1.651" stop="no"/>
+<text x="0" y="2.667" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;Name</text>
+<text x="0" y="-2.667" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;Value</text>
+<circle x="-1.25" y="0" radius="0.3556" width="0" layer="29"/>
+<circle x="-1.25" y="0" radius="0.9652" width="0" layer="30"/>
+<circle x="1.25" y="0" radius="0.3556" width="0" layer="29"/>
+<rectangle x1="0.2848" y1="-0.9652" x2="2.2152" y2="0.9652" layer="30"/>
+<wire x1="-0.742" y1="1.397" x2="-1.758" y2="1.397" width="0.2032" layer="21"/>
+<wire x1="1.758" y1="1.397" x2="0.742" y2="1.397" width="0.2032" layer="21"/>
+<wire x1="1.25" y1="1.905" x2="1.25" y2="0.889" width="0.2032" layer="21"/>
+</package>
+<package name="EIA6032-NOM">
+<description>Metric Size Code EIA 6032-25 Median (Nominal) Land Protrusion&lt;br /&gt;
+http://www.kemet.com/Lists/ProductCatalog/Attachments/254/KEM_T2005_T491.pdf</description>
+<wire x1="-3.91" y1="1.5" x2="-2" y2="1.5" width="0.127" layer="51"/>
+<wire x1="-3.91" y1="1.5" x2="-3.91" y2="-1.5" width="0.127" layer="51"/>
+<wire x1="-3.91" y1="-1.5" x2="-2" y2="-1.5" width="0.127" layer="51"/>
+<wire x1="2" y1="1.5" x2="3.5" y2="1.5" width="0.127" layer="51"/>
+<wire x1="3.5" y1="1.5" x2="3.91" y2="1" width="0.127" layer="51"/>
+<wire x1="3.91" y1="1" x2="3.91" y2="-1" width="0.127" layer="51"/>
+<wire x1="3.91" y1="-1" x2="3.5" y2="-1.5" width="0.127" layer="51"/>
+<wire x1="3.5" y1="-1.5" x2="2" y2="-1.5" width="0.127" layer="51"/>
+<smd name="C" x="-2.47" y="0" dx="2.37" dy="2.23" layer="1" rot="R180"/>
+<smd name="A" x="2.47" y="0" dx="2.37" dy="2.23" layer="1" rot="R180"/>
+<text x="0" y="1.27" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;Name</text>
+<text x="0" y="-1.27" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;Value</text>
+<wire x1="3.91" y1="1" x2="3.91" y2="-1" width="0.127" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="CAP">
@@ -9319,6 +9549,18 @@ Commonly used for small ceramic capacitors. Like our 0.1uF (http://www.sparkfun.
 <rectangle x1="-2.032" y1="1.524" x2="2.032" y2="2.032" layer="94"/>
 <pin name="1" x="0" y="5.08" visible="off" length="short" direction="pas" swaplevel="1" rot="R270"/>
 <pin name="2" x="0" y="-2.54" visible="off" length="short" direction="pas" swaplevel="1" rot="R90"/>
+</symbol>
+<symbol name="CAP_POL">
+<wire x1="-2.54" y1="0" x2="2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="-1.016" x2="0" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="0" y1="-1" x2="2.4892" y2="-1.8542" width="0.254" layer="94" curve="-37.878202" cap="flat"/>
+<wire x1="-2.4669" y1="-1.8504" x2="0" y2="-1.0161" width="0.254" layer="94" curve="-37.376341" cap="flat"/>
+<text x="1.016" y="0.635" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="1.016" y="-4.191" size="1.778" layer="96" font="vector">&gt;VALUE</text>
+<rectangle x1="-2.253" y1="0.668" x2="-1.364" y2="0.795" layer="94"/>
+<rectangle x1="-1.872" y1="0.287" x2="-1.745" y2="1.176" layer="94"/>
+<pin name="+" x="0" y="2.54" visible="off" length="short" direction="pas" swaplevel="1" rot="R270"/>
+<pin name="-" x="0" y="-5.08" visible="off" length="short" direction="pas" swaplevel="1" rot="R90"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -9386,6 +9628,25 @@ Commonly used for small ceramic capacitors. Like our 0.1uF (http://www.sparkfun.
 <technology name="">
 <attribute name="PROD_ID" value="CAP-08390"/>
 <attribute name="VALUE" value="0.1uF"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="33UF" prefix="C">
+<gates>
+<gate name="G$1" symbol="CAP" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="0805">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="20%-6.3V-0805">
+<attribute name="PROD_ID" value="CAP-XXXXX" constant="no"/>
+<attribute name="VALUE" value="33UF" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -9463,6 +9724,87 @@ Commonly used for small ceramic capacitors. Like our 0.1uF (http://www.sparkfun.
 <technology name="20%-6.3V-0805">
 <attribute name="PROD_ID" value="" constant="no"/>
 <attribute name="VALUE" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="10UF-POLAR" prefix="C">
+<description>&lt;h3&gt;10.0µF polarized capacitors&lt;/h3&gt;
+&lt;p&gt;A capacitor is a passive two-terminal electrical component used to store electrical energy temporarily in an electric field.&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="CAP_POL" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-EIA3216-16V-10%(TANT)" package="EIA3216">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="CAP-00811"/>
+<attribute name="VALUE" value="10uF"/>
+</technology>
+</technologies>
+</device>
+<device name="-0603-6.3V-20%(TANT)" package="0603-POLAR">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="CAP-13210"/>
+<attribute name="VALUE" value="10uF"/>
+</technology>
+</technologies>
+</device>
+<device name="-EIA3528-20V-10%(TANT)" package="EIA3528">
+<connects>
+<connect gate="G$1" pin="+" pad="A"/>
+<connect gate="G$1" pin="-" pad="C"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="CAP-08063"/>
+<attribute name="VALUE" value="10uF"/>
+</technology>
+</technologies>
+</device>
+<device name="-RADIAL-2.5MM-25V-20%" package="CPOL-RADIAL-2.5MM-5MM">
+<connects>
+<connect gate="G$1" pin="+" pad="1"/>
+<connect gate="G$1" pin="-" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="CAP-08440"/>
+<attribute name="VALUE" value="10uF"/>
+</technology>
+</technologies>
+</device>
+<device name="-RADIAL-2.5MM-KIT-25V-20%" package="CPOL-RADIAL-2.5MM-5MM-KIT">
+<connects>
+<connect gate="G$1" pin="+" pad="1"/>
+<connect gate="G$1" pin="-" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="CAP-08440"/>
+<attribute name="VALUE" value="10uF"/>
+</technology>
+</technologies>
+</device>
+<device name="-EIA6032-25V-10%" package="EIA6032-NOM">
+<connects>
+<connect gate="G$1" pin="+" pad="A"/>
+<connect gate="G$1" pin="-" pad="C"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="CAP-12984"/>
+<attribute name="VALUE" value="10µF"/>
 </technology>
 </technologies>
 </device>
@@ -10734,6 +11076,29 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="1.9625" y="1.495" curve="90"/>
 </polygon>
 </package>
+<package name="SOT23-5">
+<description>&lt;b&gt;Small Outline Transistor&lt;/b&gt;</description>
+<wire x1="1.27" y1="0.4294" x2="1.27" y2="-0.4294" width="0.2032" layer="21"/>
+<wire x1="1.4" y1="-0.8" x2="-1.4" y2="-0.8" width="0.1524" layer="51"/>
+<wire x1="-1.27" y1="-0.4294" x2="-1.27" y2="0.4294" width="0.2032" layer="21"/>
+<wire x1="-1.4" y1="0.8" x2="1.4" y2="0.8" width="0.1524" layer="51"/>
+<wire x1="-0.2684" y1="0.7088" x2="0.2684" y2="0.7088" width="0.2032" layer="21"/>
+<wire x1="1.4" y1="0.8" x2="1.4" y2="-0.8" width="0.1524" layer="51"/>
+<wire x1="-1.4" y1="0.8" x2="-1.4" y2="-0.8" width="0.1524" layer="51"/>
+<rectangle x1="-1.2" y1="-1.5" x2="-0.7" y2="-0.85" layer="51"/>
+<rectangle x1="-0.25" y1="-1.5" x2="0.25" y2="-0.85" layer="51"/>
+<rectangle x1="0.7" y1="-1.5" x2="1.2" y2="-0.85" layer="51"/>
+<rectangle x1="0.7" y1="0.85" x2="1.2" y2="1.5" layer="51"/>
+<rectangle x1="-1.2" y1="0.85" x2="-0.7" y2="1.5" layer="51"/>
+<smd name="1" x="-0.95" y="-1.3001" dx="0.55" dy="1.2" layer="1"/>
+<smd name="2" x="0" y="-1.3001" dx="0.55" dy="1.2" layer="1"/>
+<smd name="3" x="0.95" y="-1.3001" dx="0.55" dy="1.2" layer="1"/>
+<smd name="4" x="0.95" y="1.3001" dx="0.55" dy="1.2" layer="1"/>
+<smd name="5" x="-0.95" y="1.3001" dx="0.55" dy="1.2" layer="1"/>
+<text x="-0.889" y="2.159" size="0.4064" layer="25">&gt;NAME</text>
+<text x="-0.9525" y="-0.1905" size="0.4064" layer="27">&gt;VALUE</text>
+<circle x="-1.6002" y="-1.016" radius="0.127" width="0" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="TPS63070RNM">
@@ -10756,6 +11121,21 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pin name="FB" x="22.86" y="0" visible="pin" length="middle" rot="R180"/>
 <text x="-7.62" y="17.78" size="2.54" layer="95" font="vector" ratio="15">&gt;NAME</text>
 <text x="-7.62" y="-20.32" size="2.54" layer="96" font="vector" ratio="15">&gt;VALUE</text>
+</symbol>
+<symbol name="V-REG-LDO">
+<description>&lt;h3&gt; Voltage Regulator&lt;/h3&gt;
+5  pin, with Bypass/Enable functions.</description>
+<wire x1="-7.62" y1="-7.62" x2="5.08" y2="-7.62" width="0.4064" layer="94"/>
+<wire x1="5.08" y1="-7.62" x2="5.08" y2="7.62" width="0.4064" layer="94"/>
+<wire x1="5.08" y1="7.62" x2="-7.62" y2="7.62" width="0.4064" layer="94"/>
+<wire x1="-7.62" y1="7.62" x2="-7.62" y2="-7.62" width="0.4064" layer="94"/>
+<text x="-7.62" y="7.874" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-7.62" y="-8.128" size="1.778" layer="96" font="vector" align="top-left">&gt;VALUE</text>
+<pin name="IN" x="-10.16" y="5.08" visible="pin" length="short" direction="in"/>
+<pin name="GND" x="-10.16" y="-5.08" visible="pin" length="short" direction="in"/>
+<pin name="OUT" x="7.62" y="5.08" visible="pin" length="short" direction="pas" rot="R180"/>
+<pin name="EN" x="-10.16" y="0" visible="pin" length="short" direction="in"/>
+<pin name="BP" x="7.62" y="-5.08" visible="pin" length="short" direction="in" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -10799,6 +11179,71 @@ in a 2.5 mm x 3 mm QFN package.</description>
 <attribute name="PROD_ID" value="IC-XXXXX" constant="no"/>
 <attribute name="VALUE" value="TPS63070" constant="no"/>
 </technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="V_REG_MIC5205" prefix="U">
+<description>&lt;b&gt;V_REG MIC5205&lt;/b&gt; Standard 3.3V, 5V, and Adjustable 150mA LDO voltage regulator in SOT-23 layout. Micrel part MIC5205. BP (by-pass) pin is used to lower output noise with 470pF cap, may be left open. On the adjustable version BP is used to set output.</description>
+<gates>
+<gate name="U1" symbol="V-REG-LDO" x="0" y="0"/>
+</gates>
+<devices>
+<device name="3.3V" package="SOT23-5">
+<connects>
+<connect gate="U1" pin="BP" pad="4"/>
+<connect gate="U1" pin="EN" pad="3"/>
+<connect gate="U1" pin="GND" pad="2"/>
+<connect gate="U1" pin="IN" pad="1"/>
+<connect gate="U1" pin="OUT" pad="5"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="VREG-00822" constant="no"/>
+<attribute name="VALUE" value="3.3V/150mA" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="5V" package="SOT23-5">
+<connects>
+<connect gate="U1" pin="BP" pad="4"/>
+<connect gate="U1" pin="EN" pad="3"/>
+<connect gate="U1" pin="GND" pad="2"/>
+<connect gate="U1" pin="IN" pad="1"/>
+<connect gate="U1" pin="OUT" pad="5"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="VREG-00823" constant="no"/>
+<attribute name="VALUE" value="5V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="ADJ" package="SOT23-5">
+<connects>
+<connect gate="U1" pin="BP" pad="4"/>
+<connect gate="U1" pin="EN" pad="3"/>
+<connect gate="U1" pin="GND" pad="2"/>
+<connect gate="U1" pin="IN" pad="1"/>
+<connect gate="U1" pin="OUT" pad="5"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="VREG-12594" constant="no"/>
+<attribute name="VALUE" value="ADJ" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="3.0V" package="SOT23-5">
+<connects>
+<connect gate="U1" pin="BP" pad="4"/>
+<connect gate="U1" pin="EN" pad="3"/>
+<connect gate="U1" pin="GND" pad="2"/>
+<connect gate="U1" pin="IN" pad="1"/>
+<connect gate="U1" pin="OUT" pad="5"/>
+</connects>
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -10879,7 +11324,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="FD2" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="1X2"/>
 <part name="FD4" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="1X2"/>
 <part name="U2" library="Micro_Bit_Parts" deviceset="MICRO:BIT" device="LEDS_UP" value="micro:bit"/>
-<part name="SUPPLY8" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
+<part name="SUPPLY8" library="SparkFun-PowerSymbols" deviceset="3.3V" device="" value="3.0V"/>
 <part name="GND4" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="J19" library="TAB" deviceset="GATOR" device=""/>
 <part name="J20" library="TAB" deviceset="GATOR" device=""/>
@@ -10907,7 +11352,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="SUPPLY4" library="SparkFun-PowerSymbols" deviceset="VIN" device="" value="VIN_TAB"/>
 <part name="LOGO1" library="SparkFun-Aesthetics" deviceset="SFE_LOGO_FLAME" device=".3_INCH" value="SFE_LOGO_FLAME.3_INCH"/>
 <part name="LS1" library="SparkFun-Electromechanical" deviceset="BUZZER" device="-SMD"/>
-<part name="S2" library="SparkFun-Switches" deviceset="SWITCH-SPDT" device="-SMD-AYZ0202"/>
 <part name="S3" library="SparkFun-Switches" deviceset="SWITCH-SPDT" device="-SMD-AYZ0202"/>
 <part name="SUPPLY2" library="SparkFun-PowerSymbols" deviceset="VOUT" device="" value="VOUT3.3"/>
 <part name="SUPPLY10" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
@@ -10932,53 +11376,53 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="SUPPLY3" library="SparkFun-PowerSymbols" deviceset="VIN" device=""/>
 <part name="SUPPLY5" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="SUPPLY9" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
-<part name="LOGO2" library="SparkFun-Aesthetics" deviceset="OSHW-LOGO" device="L" value="OSHW-LOGOL"/>
+<part name="GND" library="SparkFun-Aesthetics" deviceset="OSHW-LOGO" device="L" value="OSHW-LOGOL"/>
 <part name="D11" library="SparkFun-DiscreteSemi" deviceset="DIODE-ZENER" device="-MM3Z3V3T1G" value="3.3V"/>
-<part name="SUPPLY7" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
+<part name="SUPPLY7" library="SparkFun-PowerSymbols" deviceset="3.3V" device="" value="3.0V"/>
 <part name="R6" library="SparkFun-Resistors" deviceset="910OHM" device="" technology="OHMS-0603-1/10W-1%" value="910"/>
 <part name="D12" library="SparkFun-DiscreteSemi" deviceset="DIODE-ZENER" device="-MM3Z3V3T1G" value="3.3V"/>
 <part name="R7" library="SparkFun-Resistors" deviceset="600OHM" device="" technology="OHMS-0603-1/10W-1%" value="604"/>
 <part name="GND2" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="D13" library="SparkFun-DiscreteSemi" deviceset="DIODE-ZENER" device="-MM3Z3V3T1G" value="3.3V"/>
-<part name="SUPPLY11" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
+<part name="SUPPLY11" library="SparkFun-PowerSymbols" deviceset="3.3V" device="" value="3.0V"/>
 <part name="R8" library="SparkFun-Resistors" deviceset="910OHM" device="" technology="OHMS-0603-1/10W-1%" value="910"/>
 <part name="D14" library="SparkFun-DiscreteSemi" deviceset="DIODE-ZENER" device="-MM3Z3V3T1G" value="3.3V"/>
 <part name="R9" library="SparkFun-Resistors" deviceset="600OHM" device="" technology="OHMS-0603-1/10W-1%" value="604"/>
 <part name="GND12" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="D15" library="SparkFun-DiscreteSemi" deviceset="DIODE-ZENER" device="-MM3Z3V3T1G" value="3.3V"/>
-<part name="SUPPLY13" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
+<part name="SUPPLY13" library="SparkFun-PowerSymbols" deviceset="3.3V" device="" value="3.0V"/>
 <part name="R10" library="SparkFun-Resistors" deviceset="910OHM" device="" technology="OHMS-0603-1/10W-1%" value="910"/>
 <part name="D16" library="SparkFun-DiscreteSemi" deviceset="DIODE-ZENER" device="-MM3Z3V3T1G" value="3.3V"/>
 <part name="R11" library="SparkFun-Resistors" deviceset="600OHM" device="" technology="OHMS-0603-1/10W-1%" value="604"/>
 <part name="GND13" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="D19" library="SparkFun-DiscreteSemi" deviceset="DIODE-ZENER" device="-MM3Z3V3T1G" value="3.3V"/>
-<part name="SUPPLY14" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
+<part name="SUPPLY14" library="SparkFun-PowerSymbols" deviceset="3.3V" device="" value="3.0V"/>
 <part name="R14" library="SparkFun-Resistors" deviceset="910OHM" device="" technology="OHMS-0603-1/10W-1%" value="910"/>
 <part name="D20" library="SparkFun-DiscreteSemi" deviceset="DIODE-ZENER" device="-MM3Z3V3T1G" value="3.3V"/>
 <part name="R15" library="SparkFun-Resistors" deviceset="600OHM" device="" technology="OHMS-0603-1/10W-1%" value="604"/>
 <part name="GND14" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="D21" library="SparkFun-DiscreteSemi" deviceset="DIODE-ZENER" device="-MM3Z3V3T1G" value="3.3V"/>
-<part name="SUPPLY15" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
+<part name="SUPPLY15" library="SparkFun-PowerSymbols" deviceset="3.3V" device="" value="3.0V"/>
 <part name="R16" library="SparkFun-Resistors" deviceset="910OHM" device="" technology="OHMS-0603-1/10W-1%" value="910"/>
 <part name="D22" library="SparkFun-DiscreteSemi" deviceset="DIODE-ZENER" device="-MM3Z3V3T1G" value="3.3V"/>
 <part name="R17" library="SparkFun-Resistors" deviceset="600OHM" device="" technology="OHMS-0603-1/10W-1%" value="604"/>
 <part name="GND15" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="D23" library="SparkFun-DiscreteSemi" deviceset="DIODE-ZENER" device="-MM3Z3V3T1G" value="3.3V"/>
-<part name="SUPPLY16" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
+<part name="SUPPLY16" library="SparkFun-PowerSymbols" deviceset="3.3V" device="" value="3.0v"/>
 <part name="R18" library="SparkFun-Resistors" deviceset="910OHM" device="" technology="OHMS-0603-1/10W-1%" value="910"/>
 <part name="D24" library="SparkFun-DiscreteSemi" deviceset="DIODE-ZENER" device="-MM3Z3V3T1G" value="3.3V"/>
 <part name="R19" library="SparkFun-Resistors" deviceset="600OHM" device="" technology="OHMS-0603-1/10W-1%" value="604"/>
 <part name="GND16" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="D25" library="SparkFun-DiscreteSemi" deviceset="DIODE-ZENER" device="-MM3Z3V3T1G" value="3.3V"/>
-<part name="SUPPLY17" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
+<part name="SUPPLY17" library="SparkFun-PowerSymbols" deviceset="3.3V" device="" value="3.0V"/>
 <part name="R20" library="SparkFun-Resistors" deviceset="910OHM" device="" technology="OHMS-0603-1/10W-1%" value="910"/>
 <part name="U1" library="SparkFun-IC-Power" deviceset="TPS63070RNM" device="" value="TPS63070"/>
 <part name="R1" library="SparkFun-Resistors" deviceset="100KOHM" device="-0603-1/10W-1%" value="100k"/>
 <part name="R2" library="SparkFun-Resistors" deviceset="10.2KOHM" device="" value="10.2K"/>
-<part name="R3" library="SparkFun-Resistors" deviceset="274KOHM" device="" technology="OHMS-0603-1/10W-1%" value="274K"/>
+<part name="R3" library="SparkFun-Resistors" deviceset="523KOHM" device="" technology="OHMS-0603-1/10W-1%" value="523k"/>
 <part name="R4" library="SparkFun-Resistors" deviceset="100KOHM" device="-0603-1/10W-1%" value="100k"/>
 <part name="C6" library="SparkFun-Capacitors" deviceset="10UF" device="-0603-6.3V-20%" value="10uF"/>
-<part name="C7" library="SparkFun-Capacitors" deviceset="10UF" device="-0603-6.3V-20%" value="10uF"/>
+<part name="C7" library="SparkFun-Capacitors" deviceset="33UF" device="" technology="20%-6.3V-0805" value="33UF"/>
 <part name="C8" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0603-25V-(+80/-20%)" value="0.1uF"/>
 <part name="C9" library="SparkFun-Capacitors" deviceset="47UF" device="" technology="20%-6.3V-0805" value="47uF"/>
 <part name="L2" library="SparkFun-Coils" deviceset="XFL4020" device=""/>
@@ -10992,7 +11436,28 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="GND17" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="GND18" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="GND20" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="SUPPLY20" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
+<part name="U3" library="SparkFun-IC-Power" deviceset="V_REG_MIC5205" device="3.3V" value="3.3V/150mA"/>
+<part name="U4" library="SparkFun-IC-Power" deviceset="V_REG_MIC5205" device="3.0V"/>
+<part name="SUPPLY20" library="SparkFun-PowerSymbols" deviceset="5V" device=""/>
+<part name="SUPPLY21" library="SparkFun-PowerSymbols" deviceset="5V" device=""/>
+<part name="SUPPLY22" library="SparkFun-PowerSymbols" deviceset="5V" device=""/>
+<part name="C10" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0603-25V-(+80/-20%)" value="0.1uF"/>
+<part name="C11" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0603-25V-(+80/-20%)" value="0.1uF"/>
+<part name="C12" library="SparkFun-Capacitors" deviceset="10UF-POLAR" device="-EIA3216-16V-10%(TANT)" value="10uF"/>
+<part name="C13" library="SparkFun-Capacitors" deviceset="10UF-POLAR" device="-EIA3216-16V-10%(TANT)" value="10uF"/>
+<part name="GND21" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
+<part name="GND23" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
+<part name="GND24" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
+<part name="GND25" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
+<part name="J1" library="TAB" deviceset="GATOR" device=""/>
+<part name="SUPPLY23" library="SparkFun-PowerSymbols" deviceset="5V" device="" value="VOUT5.0"/>
+<part name="S1" library="SparkFun-Switches" deviceset="SWITCH-DPDT" device="-SMD-AYZ0202"/>
+<part name="SUPPLY24" library="SparkFun-PowerSymbols" deviceset="5V" device=""/>
+<part name="SUPPLY25" library="SparkFun-PowerSymbols" deviceset="5V" device="" value="VOUT5.0"/>
+<part name="GND27" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
+<part name="SUPPLY26" library="SparkFun-PowerSymbols" deviceset="3.3V" device="" value="3.0V"/>
+<part name="SUPPLY27" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
+<part name="GND28" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -11103,11 +11568,10 @@ GPIO/AIN</text>
 <instance part="SUPPLY4" gate="G$1" x="170.18" y="162.56"/>
 <instance part="LOGO1" gate="G$1" x="181.356" y="36.068"/>
 <instance part="LS1" gate="G$1" x="236.22" y="170.18" rot="R270"/>
-<instance part="S2" gate="1" x="226.06" y="124.46"/>
 <instance part="S3" gate="1" x="210.82" y="167.64"/>
 <instance part="SUPPLY2" gate="G$1" x="170.18" y="147.32"/>
-<instance part="SUPPLY10" gate="G$1" x="220.98" y="127"/>
-<instance part="SUPPLY12" gate="G$1" x="233.68" y="127"/>
+<instance part="SUPPLY10" gate="G$1" x="203.2" y="134.62"/>
+<instance part="SUPPLY12" gate="G$1" x="220.98" y="139.7"/>
 <instance part="GND5" gate="1" x="231.14" y="157.48"/>
 <instance part="GND6" gate="1" x="12.7" y="5.08"/>
 <instance part="C1" gate="G$1" x="86.36" y="25.4" rot="R180"/>
@@ -11122,7 +11586,7 @@ GPIO/AIN</text>
 <instance part="SUPPLY1" gate="G$1" x="7.62" y="96.52"/>
 <instance part="SUPPLY5" gate="G$1" x="7.62" y="96.52"/>
 <instance part="SUPPLY9" gate="G$1" x="86.36" y="35.56"/>
-<instance part="LOGO2" gate="G$1" x="167.64" y="45.72"/>
+<instance part="GND" gate="G$1" x="167.64" y="45.72"/>
 <instance part="D11" gate="G$1" x="218.44" y="66.04" rot="R90"/>
 <instance part="SUPPLY7" gate="G$1" x="218.44" y="71.12"/>
 <instance part="R6" gate="G$1" x="210.82" y="60.96"/>
@@ -11162,6 +11626,11 @@ GPIO/AIN</text>
 <instance part="D25" gate="G$1" x="142.24" y="66.04" rot="R90"/>
 <instance part="SUPPLY17" gate="G$1" x="142.24" y="71.12"/>
 <instance part="R20" gate="G$1" x="134.62" y="60.96"/>
+<instance part="J1" gate="G$1" x="190.5" y="129.54"/>
+<instance part="SUPPLY23" gate="G$1" x="185.42" y="134.62"/>
+<instance part="S1" gate="G$1" x="210.82" y="129.54"/>
+<instance part="SUPPLY24" gate="G$1" x="203.2" y="127"/>
+<instance part="SUPPLY25" gate="G$1" x="226.06" y="127"/>
 </instances>
 <busses>
 </busses>
@@ -11191,18 +11660,6 @@ GPIO/AIN</text>
 </segment>
 </net>
 <net name="3.3V" class="0">
-<segment>
-<pinref part="U2" gate="G$1" pin="3.3V"/>
-<wire x1="45.72" y1="167.64" x2="53.34" y2="167.64" width="0.1524" layer="91"/>
-<wire x1="53.34" y1="167.64" x2="53.34" y2="175.26" width="0.1524" layer="91"/>
-<pinref part="SUPPLY8" gate="G$1" pin="3.3V"/>
-</segment>
-<segment>
-<pinref part="S2" gate="1" pin="P"/>
-<wire x1="223.52" y1="124.46" x2="220.98" y2="124.46" width="0.1524" layer="91"/>
-<pinref part="SUPPLY10" gate="G$1" pin="3.3V"/>
-<wire x1="220.98" y1="124.46" x2="220.98" y2="127" width="0.1524" layer="91"/>
-</segment>
 <segment>
 <pinref part="D5" gate="G$1" pin="VDD"/>
 <wire x1="17.78" y1="17.78" x2="7.62" y2="17.78" width="0.1524" layer="91"/>
@@ -11250,39 +11707,10 @@ GPIO/AIN</text>
 <pinref part="SUPPLY9" gate="G$1" pin="3.3V"/>
 </segment>
 <segment>
-<pinref part="D11" gate="G$1" pin="C"/>
-<wire x1="218.44" y1="68.58" x2="218.44" y2="71.12" width="0.1524" layer="91"/>
-<pinref part="SUPPLY7" gate="G$1" pin="3.3V"/>
-</segment>
-<segment>
-<pinref part="D13" gate="G$1" pin="C"/>
-<wire x1="180.34" y1="86.36" x2="180.34" y2="88.9" width="0.1524" layer="91"/>
-<pinref part="SUPPLY11" gate="G$1" pin="3.3V"/>
-</segment>
-<segment>
-<pinref part="D15" gate="G$1" pin="C"/>
-<wire x1="218.44" y1="101.6" x2="218.44" y2="104.14" width="0.1524" layer="91"/>
-<pinref part="SUPPLY13" gate="G$1" pin="3.3V"/>
-</segment>
-<segment>
-<pinref part="D19" gate="G$1" pin="C"/>
-<wire x1="88.9" y1="101.6" x2="88.9" y2="104.14" width="0.1524" layer="91"/>
-<pinref part="SUPPLY14" gate="G$1" pin="3.3V"/>
-</segment>
-<segment>
-<pinref part="D21" gate="G$1" pin="C"/>
-<wire x1="91.44" y1="68.58" x2="91.44" y2="71.12" width="0.1524" layer="91"/>
-<pinref part="SUPPLY15" gate="G$1" pin="3.3V"/>
-</segment>
-<segment>
-<pinref part="D23" gate="G$1" pin="C"/>
-<wire x1="139.7" y1="101.6" x2="139.7" y2="104.14" width="0.1524" layer="91"/>
-<pinref part="SUPPLY16" gate="G$1" pin="3.3V"/>
-</segment>
-<segment>
-<pinref part="D25" gate="G$1" pin="C"/>
-<wire x1="142.24" y1="68.58" x2="142.24" y2="71.12" width="0.1524" layer="91"/>
-<pinref part="SUPPLY17" gate="G$1" pin="3.3V"/>
+<pinref part="SUPPLY10" gate="G$1" pin="3.3V"/>
+<wire x1="203.2" y1="134.62" x2="203.2" y2="132.08" width="0.1524" layer="91"/>
+<pinref part="S1" gate="G$1" pin="2"/>
+<wire x1="203.2" y1="132.08" x2="205.74" y2="132.08" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -11400,11 +11828,6 @@ GPIO/AIN</text>
 <pinref part="S3" gate="1" pin="P"/>
 <wire x1="208.28" y1="167.64" x2="205.74" y2="167.64" width="0.1524" layer="91"/>
 <label x="205.74" y="167.64" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
-</segment>
-<segment>
-<pinref part="R14" gate="G$1" pin="1"/>
-<wire x1="76.2" y1="93.98" x2="71.12" y2="93.98" width="0.1524" layer="91"/>
-<label x="71.12" y="93.98" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="P1" class="0">
@@ -11543,10 +11966,10 @@ GPIO/AIN</text>
 <pinref part="SUPPLY2" gate="G$1" pin="VOUT"/>
 </segment>
 <segment>
-<pinref part="S2" gate="1" pin="S"/>
-<wire x1="231.14" y1="121.92" x2="233.68" y2="121.92" width="0.1524" layer="91"/>
-<wire x1="233.68" y1="121.92" x2="233.68" y2="127" width="0.1524" layer="91"/>
+<wire x1="220.98" y1="129.54" x2="220.98" y2="139.7" width="0.1524" layer="91"/>
 <pinref part="SUPPLY12" gate="G$1" pin="VOUT"/>
+<pinref part="S1" gate="G$1" pin="3"/>
+<wire x1="215.9" y1="129.54" x2="220.98" y2="129.54" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="P0+" class="0">
@@ -11684,6 +12107,11 @@ GPIO/AIN</text>
 <wire x1="215.9" y1="170.18" x2="218.44" y2="170.18" width="0.1524" layer="91"/>
 <label x="218.44" y="170.18" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
+<segment>
+<pinref part="R14" gate="G$1" pin="1"/>
+<wire x1="76.2" y1="93.98" x2="71.12" y2="93.98" width="0.1524" layer="91"/>
+<label x="71.12" y="93.98" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="PP11" class="0">
 <segment>
@@ -11790,6 +12218,71 @@ GPIO/AIN</text>
 <junction x="218.44" y="60.96"/>
 </segment>
 </net>
+<net name="5V" class="0">
+<segment>
+<pinref part="S1" gate="G$1" pin="5"/>
+<wire x1="205.74" y1="124.46" x2="203.2" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="124.46" x2="203.2" y2="127" width="0.1524" layer="91"/>
+<pinref part="SUPPLY24" gate="G$1" pin="5V"/>
+</segment>
+</net>
+<net name="VOUT5.0" class="0">
+<segment>
+<pinref part="J1" gate="G$1" pin="P$1"/>
+<wire x1="187.96" y1="129.54" x2="185.42" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="185.42" y1="129.54" x2="185.42" y2="134.62" width="0.1524" layer="91"/>
+<pinref part="SUPPLY23" gate="G$1" pin="5V"/>
+</segment>
+<segment>
+<pinref part="S1" gate="G$1" pin="6"/>
+<wire x1="215.9" y1="121.92" x2="226.06" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="226.06" y1="121.92" x2="226.06" y2="127" width="0.1524" layer="91"/>
+<pinref part="SUPPLY25" gate="G$1" pin="5V"/>
+</segment>
+</net>
+<net name="3.0V" class="0">
+<segment>
+<pinref part="D19" gate="G$1" pin="C"/>
+<wire x1="88.9" y1="101.6" x2="88.9" y2="104.14" width="0.1524" layer="91"/>
+<pinref part="SUPPLY14" gate="G$1" pin="3.3V"/>
+</segment>
+<segment>
+<pinref part="D23" gate="G$1" pin="C"/>
+<wire x1="139.7" y1="101.6" x2="139.7" y2="104.14" width="0.1524" layer="91"/>
+<pinref part="SUPPLY16" gate="G$1" pin="3.3V"/>
+</segment>
+<segment>
+<pinref part="D21" gate="G$1" pin="C"/>
+<wire x1="91.44" y1="68.58" x2="91.44" y2="71.12" width="0.1524" layer="91"/>
+<pinref part="SUPPLY15" gate="G$1" pin="3.3V"/>
+</segment>
+<segment>
+<pinref part="D25" gate="G$1" pin="C"/>
+<wire x1="142.24" y1="68.58" x2="142.24" y2="71.12" width="0.1524" layer="91"/>
+<pinref part="SUPPLY17" gate="G$1" pin="3.3V"/>
+</segment>
+<segment>
+<pinref part="D13" gate="G$1" pin="C"/>
+<wire x1="180.34" y1="86.36" x2="180.34" y2="88.9" width="0.1524" layer="91"/>
+<pinref part="SUPPLY11" gate="G$1" pin="3.3V"/>
+</segment>
+<segment>
+<pinref part="D11" gate="G$1" pin="C"/>
+<wire x1="218.44" y1="68.58" x2="218.44" y2="71.12" width="0.1524" layer="91"/>
+<pinref part="SUPPLY7" gate="G$1" pin="3.3V"/>
+</segment>
+<segment>
+<pinref part="D15" gate="G$1" pin="C"/>
+<wire x1="218.44" y1="101.6" x2="218.44" y2="104.14" width="0.1524" layer="91"/>
+<pinref part="SUPPLY13" gate="G$1" pin="3.3V"/>
+</segment>
+<segment>
+<pinref part="U2" gate="G$1" pin="3.3V"/>
+<wire x1="45.72" y1="167.64" x2="53.34" y2="167.64" width="0.1524" layer="91"/>
+<wire x1="53.34" y1="167.64" x2="53.34" y2="175.26" width="0.1524" layer="91"/>
+<pinref part="SUPPLY8" gate="G$1" pin="3.3V"/>
+</segment>
+</net>
 </nets>
 </sheet>
 <sheet>
@@ -11828,7 +12321,23 @@ GPIO/AIN</text>
 <instance part="GND17" gate="1" x="124.46" y="50.8"/>
 <instance part="GND18" gate="1" x="177.8" y="66.04"/>
 <instance part="GND20" gate="1" x="193.04" y="68.58"/>
+<instance part="U3" gate="U1" x="91.44" y="27.94"/>
+<instance part="U4" gate="U1" x="33.02" y="27.94"/>
 <instance part="SUPPLY20" gate="G$1" x="193.04" y="101.6"/>
+<instance part="SUPPLY21" gate="G$1" x="17.78" y="38.1"/>
+<instance part="SUPPLY22" gate="G$1" x="76.2" y="38.1"/>
+<instance part="C10" gate="G$1" x="53.34" y="22.86"/>
+<instance part="C11" gate="G$1" x="114.3" y="25.4"/>
+<instance part="C12" gate="G$1" x="127" y="27.94"/>
+<instance part="C13" gate="G$1" x="63.5" y="25.4"/>
+<instance part="GND21" gate="1" x="53.34" y="15.24"/>
+<instance part="GND23" gate="1" x="63.5" y="15.24"/>
+<instance part="GND24" gate="1" x="114.3" y="17.78"/>
+<instance part="GND25" gate="1" x="127" y="17.78"/>
+<instance part="GND27" gate="1" x="20.32" y="15.24"/>
+<instance part="SUPPLY26" gate="G$1" x="63.5" y="38.1"/>
+<instance part="SUPPLY27" gate="G$1" x="127" y="38.1"/>
+<instance part="GND28" gate="1" x="78.74" y="17.78"/>
 </instances>
 <busses>
 </busses>
@@ -11886,6 +12395,38 @@ GPIO/AIN</text>
 <pinref part="C9" gate="G$1" pin="2"/>
 <wire x1="193.04" y1="81.28" x2="193.04" y2="71.12" width="0.1524" layer="91"/>
 <pinref part="GND20" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="U4" gate="U1" pin="GND"/>
+<wire x1="22.86" y1="22.86" x2="20.32" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="20.32" y1="22.86" x2="20.32" y2="17.78" width="0.1524" layer="91"/>
+<pinref part="GND27" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="C10" gate="G$1" pin="2"/>
+<pinref part="GND21" gate="1" pin="GND"/>
+<wire x1="53.34" y1="20.32" x2="53.34" y2="17.78" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="C13" gate="G$1" pin="-"/>
+<pinref part="GND23" gate="1" pin="GND"/>
+<wire x1="63.5" y1="20.32" x2="63.5" y2="17.78" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="C11" gate="G$1" pin="2"/>
+<pinref part="GND24" gate="1" pin="GND"/>
+<wire x1="114.3" y1="22.86" x2="114.3" y2="20.32" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="C12" gate="G$1" pin="-"/>
+<pinref part="GND25" gate="1" pin="GND"/>
+<wire x1="127" y1="22.86" x2="127" y2="20.32" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U3" gate="U1" pin="GND"/>
+<wire x1="81.28" y1="22.86" x2="78.74" y2="22.86" width="0.1524" layer="91"/>
+<pinref part="GND28" gate="1" pin="GND"/>
+<wire x1="78.74" y1="22.86" x2="78.74" y2="20.32" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="V_BATT" class="0">
@@ -11992,7 +12533,7 @@ GPIO/AIN</text>
 <wire x1="121.92" y1="83.82" x2="111.76" y2="83.82" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="3.3V" class="0">
+<net name="5V" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="VOUT"/>
 <wire x1="111.76" y1="96.52" x2="137.16" y2="96.52" width="0.1524" layer="91"/>
@@ -12010,17 +12551,67 @@ GPIO/AIN</text>
 <junction x="137.16" y="96.52"/>
 <junction x="160.02" y="96.52"/>
 <junction x="177.8" y="96.52"/>
-<pinref part="SUPPLY20" gate="G$1" pin="3.3V"/>
+<pinref part="SUPPLY20" gate="G$1" pin="5V"/>
 <wire x1="193.04" y1="96.52" x2="193.04" y2="101.6" width="0.1524" layer="91"/>
-<junction x="193.04" y="96.52"/>
+</segment>
+<segment>
+<pinref part="U4" gate="U1" pin="IN"/>
+<wire x1="22.86" y1="33.02" x2="20.32" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="20.32" y1="33.02" x2="17.78" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="17.78" y1="33.02" x2="17.78" y2="38.1" width="0.1524" layer="91"/>
+<pinref part="SUPPLY21" gate="G$1" pin="5V"/>
+<pinref part="U4" gate="U1" pin="EN"/>
+<wire x1="22.86" y1="27.94" x2="20.32" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="20.32" y1="27.94" x2="20.32" y2="33.02" width="0.1524" layer="91"/>
+<junction x="20.32" y="33.02"/>
+</segment>
+<segment>
+<pinref part="U3" gate="U1" pin="IN"/>
+<wire x1="81.28" y1="33.02" x2="78.74" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="33.02" x2="76.2" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="33.02" x2="76.2" y2="38.1" width="0.1524" layer="91"/>
+<pinref part="SUPPLY22" gate="G$1" pin="5V"/>
+<pinref part="U3" gate="U1" pin="EN"/>
+<wire x1="81.28" y1="27.94" x2="78.74" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="27.94" x2="78.74" y2="33.02" width="0.1524" layer="91"/>
+<junction x="78.74" y="33.02"/>
+</segment>
+</net>
+<net name="3.0V" class="0">
+<segment>
+<pinref part="U4" gate="U1" pin="OUT"/>
+<wire x1="40.64" y1="33.02" x2="53.34" y2="33.02" width="0.1524" layer="91"/>
+<pinref part="C13" gate="G$1" pin="+"/>
+<wire x1="53.34" y1="33.02" x2="63.5" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="63.5" y1="33.02" x2="63.5" y2="27.94" width="0.1524" layer="91"/>
+<pinref part="C10" gate="G$1" pin="1"/>
+<wire x1="53.34" y1="27.94" x2="53.34" y2="33.02" width="0.1524" layer="91"/>
+<junction x="53.34" y="33.02"/>
+<junction x="63.5" y="33.02"/>
+<wire x1="63.5" y1="33.02" x2="63.5" y2="38.1" width="0.1524" layer="91"/>
+<pinref part="SUPPLY26" gate="G$1" pin="3.3V"/>
+</segment>
+</net>
+<net name="3.3V" class="0">
+<segment>
+<pinref part="SUPPLY27" gate="G$1" pin="3.3V"/>
+<wire x1="127" y1="38.1" x2="127" y2="33.02" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U3" gate="U1" pin="OUT"/>
+<wire x1="99.06" y1="33.02" x2="114.3" y2="33.02" width="0.1524" layer="91"/>
+<pinref part="C12" gate="G$1" pin="+"/>
+<wire x1="114.3" y1="33.02" x2="127" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="127" y1="33.02" x2="127" y2="30.48" width="0.1524" layer="91"/>
+<pinref part="C11" gate="G$1" pin="1"/>
+<wire x1="114.3" y1="30.48" x2="114.3" y2="33.02" width="0.1524" layer="91"/>
+<junction x="114.3" y="33.02"/>
+<junction x="127" y="33.02"/>
 </segment>
 </net>
 </nets>
 </sheet>
 </sheets>
-<errors>
-<approved hash="202,2,182.88,147.32,U4,BP,,,,"/>
-</errors>
 </schematic>
 </drawing>
 <compatibility>
