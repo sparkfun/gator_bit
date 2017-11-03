@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.001" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -96,10 +96,11 @@
 <vertex x="3.1496" y="0"/>
 </polygon>
 <polygon width="0.254" layer="30">
-<vertex x="-3.1496" y="-10.2616"/>
-<vertex x="-3.1496" y="-0.1016" curve="-97.62815"/>
-<vertex x="0" y="2.8448" curve="-90"/>
-<vertex x="3.1496" y="0"/>
+<vertex x="3.175" y="-10.2108"/>
+<vertex x="-3.1242" y="-10.2108"/>
+<vertex x="-3.1242" y="-0.0508" curve="-97.62815"/>
+<vertex x="0.0254" y="2.8956" curve="-90"/>
+<vertex x="3.175" y="0.0508"/>
 </polygon>
 </package>
 </packages>
