@@ -21309,7 +21309,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </connects>
 <technologies>
 <technology name="OHMS-0603-1/10W-1%">
-<attribute name="PROD_ID" value="RES_XXXX" constant="no"/>
+<attribute name="PROD_ID" value="RES-13857" constant="no"/>
 <attribute name="VALUE" value="604" constant="no"/>
 </technology>
 </technologies>
@@ -21330,7 +21330,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </connects>
 <technologies>
 <technology name="OHMS-0603-1/10W-1%">
-<attribute name="PROD_ID" value="RES_XXXXX" constant="no"/>
+<attribute name="PROD_ID" value="RES_13860" constant="no"/>
 <attribute name="VALUE" value="910" constant="no"/>
 </technology>
 </technologies>
@@ -21479,7 +21479,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </connects>
 <technologies>
 <technology name="">
-<attribute name="PROD_ID" value="RES-XXXXX" constant="no"/>
+<attribute name="PROD_ID" value="RES-12639" constant="no"/>
 <attribute name="VALUE" value="10.2K" constant="no"/>
 </technology>
 </technologies>
@@ -22968,12 +22968,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <smd name="P$6" x="1" y="-0.005" dx="0.6" dy="0.25" layer="1" roundness="50" rot="R90" stop="no" cream="no"/>
 <smd name="P$5" x="0.5" y="-0.005" dx="0.6" dy="0.25" layer="1" roundness="50" rot="R90" stop="no" cream="no"/>
 <smd name="P$1" x="0" y="2.145" dx="0.6" dy="0.25" layer="1" roundness="50" stop="no" cream="no"/>
-<smd name="P$13" x="1.5175" y="2.795" dx="0.6" dy="0.25" layer="1" roundness="50" rot="R90" stop="no" cream="no"/>
-<smd name="P$12" x="2.0175" y="2.795" dx="0.6" dy="0.25" layer="1" roundness="50" rot="R90" stop="no" cream="no"/>
-<smd name="P$1213" x="1.7685" y="2.621" dx="0.75" dy="0.25" layer="1" roundness="50" rot="R180" stop="no" cream="no"/>
-<smd name="P$8" x="2.0225" y="0" dx="0.6" dy="0.25" layer="1" roundness="50" rot="R270" stop="no" cream="no"/>
-<smd name="P$7" x="1.5225" y="0" dx="0.6" dy="0.25" layer="1" roundness="50" rot="R270" stop="no" cream="no"/>
-<smd name="P$78" x="1.7715" y="0.175" dx="0.75" dy="0.25" layer="1" roundness="50" stop="no" cream="no"/>
 <smd name="P$11" x="1.9875" y="1.895" dx="1.35" dy="0.25" layer="1" roundness="50" stop="no" thermals="no" cream="no"/>
 <smd name="P$9" x="1.9875" y="0.895" dx="1.35" dy="0.25" layer="1" roundness="50" stop="no" thermals="no" cream="no"/>
 <smd name="P$10" x="1.8125" y="1.395" dx="1.7" dy="0.25" layer="1" roundness="50" stop="no" thermals="no" cream="no"/>
@@ -23099,26 +23093,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="0" y1="-0.005" x2="0.254" y2="-0.005" width="0.2032" layer="21"/>
 <wire x1="2.54" y1="0.63" x2="2.54" y2="-0.005" width="0.2032" layer="21"/>
 <wire x1="2.54" y1="-0.005" x2="2.286" y2="-0.005" width="0.2032" layer="21"/>
-<polygon width="0.05" layer="29">
-<vertex x="2.125" y="2.5"/>
-<vertex x="1.425" y="2.5" curve="-90"/>
-<vertex x="1.375" y="2.55"/>
-<vertex x="1.375" y="3.075" curve="-90"/>
-<vertex x="1.425" y="3.125"/>
-<vertex x="2.125" y="3.125" curve="-90"/>
-<vertex x="2.175" y="3.075"/>
-<vertex x="2.175" y="2.55" curve="-90"/>
-</polygon>
-<polygon width="0.05" layer="29">
-<vertex x="2.175" y="0.275"/>
-<vertex x="2.175" y="-0.25" curve="-90"/>
-<vertex x="2.125" y="-0.3"/>
-<vertex x="1.425" y="-0.3" curve="-90"/>
-<vertex x="1.375" y="-0.25"/>
-<vertex x="1.375" y="0.275" curve="-90"/>
-<vertex x="1.425" y="0.325"/>
-<vertex x="2.125" y="0.325" curve="-90"/>
-</polygon>
 <polygon width="0.05" layer="31">
 <vertex x="0.6" y="3.02"/>
 <vertex x="0.6" y="2.56" curve="-90"/>
@@ -23201,14 +23175,14 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </polygon>
 <polygon width="0.05" layer="31">
 <vertex x="1.945" y="3.07"/>
-<vertex x="2.0875" y="3.07" curve="-90"/>
-<vertex x="2.1175" y="3.0375"/>
-<vertex x="2.1175" y="2.56" curve="-90"/>
-<vertex x="2.0775" y="2.52"/>
-<vertex x="1.4525" y="2.52" curve="-90"/>
-<vertex x="1.4175" y="2.555"/>
-<vertex x="1.4175" y="3.03" curve="-90"/>
-<vertex x="1.4525" y="3.07"/>
+<vertex x="2.0367" y="3.07" curve="-90"/>
+<vertex x="2.1175" y="2.9613"/>
+<vertex x="2.1175" y="2.5854" curve="-90"/>
+<vertex x="2.0521" y="2.52"/>
+<vertex x="1.5033" y="2.52" curve="-90"/>
+<vertex x="1.4175" y="2.5804"/>
+<vertex x="1.4175" y="2.9538" curve="-90"/>
+<vertex x="1.5033" y="3.07"/>
 <vertex x="1.58" y="3.07" curve="-90"/>
 <vertex x="1.6175" y="3.0325"/>
 <vertex x="1.6175" y="2.7425" curve="90"/>
@@ -23227,35 +23201,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="1.9225" y="3.045" curve="-90"/>
 <vertex x="1.92" y="3.0425"/>
 <vertex x="1.92" y="3.03"/>
-</polygon>
-<polygon width="0.05" layer="31">
-<vertex x="1.5925" y="-0.2725"/>
-<vertex x="1.45" y="-0.2725" curve="-90"/>
-<vertex x="1.42" y="-0.24"/>
-<vertex x="1.42" y="0.2375" curve="-90"/>
-<vertex x="1.46" y="0.2775"/>
-<vertex x="2.085" y="0.2775" curve="-90"/>
-<vertex x="2.12" y="0.2425"/>
-<vertex x="2.12" y="-0.2325" curve="-90"/>
-<vertex x="2.085" y="-0.2725"/>
-<vertex x="1.9575" y="-0.2725" curve="-90"/>
-<vertex x="1.92" y="-0.235"/>
-<vertex x="1.92" y="0.055" curve="90"/>
-<vertex x="1.9" y="0.075"/>
-<vertex x="1.635" y="0.075" curve="90"/>
-<vertex x="1.62" y="0.06"/>
-<vertex x="1.62" y="-0.245" curve="-90"/>
-<vertex x="1.605" y="-0.26"/>
-<vertex x="1.605" y="-0.265" curve="-90"/>
-<vertex x="1.6025" y="-0.2675"/>
-<vertex x="1.6" y="-0.2675" curve="90"/>
-<vertex x="1.5975" y="-0.27" curve="-90"/>
-<vertex x="1.595" y="-0.2725"/>
-<vertex x="1.5975" y="-0.2675" curve="90"/>
-<vertex x="1.615" y="-0.25"/>
-<vertex x="1.615" y="-0.2475" curve="-90"/>
-<vertex x="1.6175" y="-0.245"/>
-<vertex x="1.6175" y="-0.2325"/>
 </polygon>
 <polygon width="0.05" layer="31">
 <vertex x="1.3375" y="1.97"/>
@@ -23316,6 +23261,53 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="2.6375" y="1.47" curve="90"/>
 <vertex x="2.5875" y="1.495"/>
 <vertex x="1.9625" y="1.495" curve="90"/>
+</polygon>
+<smd name="P$12" x="1.7678375" y="2.794" dx="0.75" dy="0.6" layer="1" roundness="50" stop="no" cream="no"/>
+<polygon width="0.127" layer="30">
+<vertex x="1.425" y="3.075"/>
+<vertex x="2.125" y="3.075"/>
+<vertex x="2.125" y="2.5125"/>
+<vertex x="1.4125" y="2.5125"/>
+<vertex x="1.4125" y="3.075"/>
+<vertex x="1.5" y="3.075"/>
+</polygon>
+<polygon width="0.05" layer="31">
+<vertex x="1.58" y="-0.27"/>
+<vertex x="1.4883" y="-0.27" curve="-90"/>
+<vertex x="1.4075" y="-0.1613"/>
+<vertex x="1.4075" y="0.2146" curve="-90"/>
+<vertex x="1.4729" y="0.28"/>
+<vertex x="2.0217" y="0.28" curve="-90"/>
+<vertex x="2.1075" y="0.2196"/>
+<vertex x="2.1075" y="-0.1538" curve="-90"/>
+<vertex x="2.0217" y="-0.27"/>
+<vertex x="1.945" y="-0.27" curve="-90"/>
+<vertex x="1.9075" y="-0.2325"/>
+<vertex x="1.9075" y="0.0575" curve="90"/>
+<vertex x="1.8875" y="0.0775"/>
+<vertex x="1.6225" y="0.0775" curve="90"/>
+<vertex x="1.6075" y="0.0625"/>
+<vertex x="1.6075" y="-0.2425" curve="-90"/>
+<vertex x="1.5925" y="-0.2575"/>
+<vertex x="1.5925" y="-0.2625" curve="-90"/>
+<vertex x="1.59" y="-0.265"/>
+<vertex x="1.5875" y="-0.265" curve="90"/>
+<vertex x="1.585" y="-0.2675" curve="-90"/>
+<vertex x="1.5825" y="-0.27"/>
+<vertex x="1.585" y="-0.265" curve="90"/>
+<vertex x="1.6025" y="-0.2475"/>
+<vertex x="1.6025" y="-0.245" curve="-90"/>
+<vertex x="1.605" y="-0.2425"/>
+<vertex x="1.605" y="-0.23"/>
+</polygon>
+<smd name="P$7" x="1.7571625" y="0.006" dx="0.75" dy="0.6" layer="1" roundness="50" rot="R180" stop="no" cream="no"/>
+<polygon width="0.127" layer="30">
+<vertex x="2.1" y="-0.275"/>
+<vertex x="1.4" y="-0.275"/>
+<vertex x="1.4" y="0.2875"/>
+<vertex x="2.1125" y="0.2875"/>
+<vertex x="2.1125" y="-0.275"/>
+<vertex x="2.025" y="-0.275"/>
 </polygon>
 </package>
 <package name="SOT23-5">
@@ -23447,13 +23439,13 @@ in a 2.5 mm x 3 mm QFN package.</description>
 <connect gate="G$1" pin="PGND" pad="P$10"/>
 <connect gate="G$1" pin="PS_SYNC" pad="P$1"/>
 <connect gate="G$1" pin="VAUX" pad="P$3"/>
-<connect gate="G$1" pin="VIN" pad="P$12 P$13 P$1213"/>
-<connect gate="G$1" pin="VOUT" pad="P$7 P$8 P$78"/>
+<connect gate="G$1" pin="VIN" pad="P$12"/>
+<connect gate="G$1" pin="VOUT" pad="P$7"/>
 <connect gate="G$1" pin="VSEL" pad="P$15"/>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="PROD_ID" value="IC-XXXXX" constant="no"/>
+<attribute name="PROD_ID" value="IC-13858" constant="no"/>
 <attribute name="VALUE" value="TPS63070" constant="no"/>
 </technology>
 </technologies>
@@ -23537,7 +23529,10 @@ in a 2.5 mm x 3 mm QFN package.</description>
 <connect gate="G$1" pin="OUT" pad="2 4"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="PROD_ID" value="VREG-12029" constant="no"/>
+<attribute name="VALUE" value="ADJ REG 1.5A" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -23753,7 +23748,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="SUPPLY26" library="SparkFun-PowerSymbols" deviceset="3.3V" device="" value="3.0V"/>
 <part name="SUPPLY27" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="FD3" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="1X2"/>
-<part name="U4" library="SparkFun-IC-Power" deviceset="GATORBIT_LM317" device=""/>
+<part name="U4" library="SparkFun-IC-Power" deviceset="GATORBIT_LM317" device="" value="ADJ REG 1.5A"/>
 <part name="R5" library="SparkFun-Resistors" deviceset="390KOHM" device="-0603-1/10W-1%" value="390k"/>
 <part name="R12" library="SparkFun-Resistors" deviceset="240OHM" device="-0603-1/10W-1%" value="240"/>
 <part name="GND28" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
@@ -23944,7 +23939,7 @@ supply</text>
 <instance part="SUPPLY24" gate="G$1" x="220.98" y="119.38"/>
 <instance part="SUPPLY25" gate="G$1" x="243.84" y="119.38"/>
 <instance part="FD3" gate="G$1" x="238.76" y="33.02"/>
-<instance part="J5" gate="G$1" x="63.5" y="116.84"/>
+<instance part="J5" gate="G$1" x="83.82" y="119.38" rot="R180"/>
 <instance part="GND29" gate="1" x="73.66" y="111.76"/>
 <instance part="SUPPLY28" gate="G$1" x="73.66" y="121.92"/>
 <instance part="S2" gate="1" x="208.28" y="142.24"/>
@@ -24137,10 +24132,10 @@ supply</text>
 <pinref part="GND16" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="J5" gate="G$1" pin="1"/>
-<wire x1="71.12" y1="116.84" x2="73.66" y2="116.84" width="0.1524" layer="91"/>
-<wire x1="73.66" y1="116.84" x2="73.66" y2="114.3" width="0.1524" layer="91"/>
+<pinref part="J5" gate="G$1" pin="2"/>
+<wire x1="76.2" y1="116.84" x2="73.66" y2="116.84" width="0.1524" layer="91"/>
 <pinref part="GND29" gate="1" pin="GND"/>
+<wire x1="73.66" y1="116.84" x2="73.66" y2="114.3" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="P0" class="0">
@@ -24615,15 +24610,15 @@ supply</text>
 </net>
 <net name="V_BATT" class="0">
 <segment>
-<pinref part="J5" gate="G$1" pin="2"/>
-<wire x1="71.12" y1="119.38" x2="73.66" y2="119.38" width="0.1524" layer="91"/>
-<wire x1="73.66" y1="119.38" x2="73.66" y2="121.92" width="0.1524" layer="91"/>
-<pinref part="SUPPLY28" gate="G$1" pin="V_BATT"/>
-</segment>
-<segment>
 <pinref part="S2" gate="1" pin="S"/>
 <wire x1="213.36" y1="139.7" x2="218.44" y2="139.7" width="0.1524" layer="91"/>
 <label x="218.44" y="139.7" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="J5" gate="G$1" pin="1"/>
+<wire x1="76.2" y1="119.38" x2="73.66" y2="119.38" width="0.1524" layer="91"/>
+<pinref part="SUPPLY28" gate="G$1" pin="V_BATT"/>
+<wire x1="73.66" y1="119.38" x2="73.66" y2="121.92" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VIN" class="0">
