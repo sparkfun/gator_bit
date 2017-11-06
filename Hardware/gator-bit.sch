@@ -21964,8 +21964,8 @@ http://www.kemet.com/Lists/ProductCatalog/Attachments/254/KEM_T2005_T491.pdf</de
 </connects>
 <technologies>
 <technology name="20%-6.3V-0805">
-<attribute name="PROD_ID" value="" constant="no"/>
-<attribute name="VALUE" value="" constant="no"/>
+<attribute name="PROD_ID" value="CAP-13854" constant="no"/>
+<attribute name="VALUE" value="47UF" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -23568,6 +23568,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <package name="XFL4020">
 <smd name="P$1" x="1.1938" y="0" dx="3.4036" dy="0.9652" layer="1" rot="R90"/>
 <smd name="P$2" x="-1.1938" y="0" dx="3.4036" dy="0.9652" layer="1" rot="R90"/>
+<text x="-1.27" y="2.54" size="1.27" layer="125" font="vector">NAME</text>
+<text x="-1.27" y="-3.81" size="1.27" layer="27" font="vector">VALUE</text>
 </package>
 </packages>
 <symbols>
@@ -23585,7 +23587,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="XFL4020" prefix="L">
+<deviceset name="XFL4020" prefix="L" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="INDUCTOR" x="0" y="0"/>
 </gates>
@@ -23596,7 +23598,14 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <connect gate="G$1" pin="2" pad="P$2"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="PROD_ID" value="NDUC-13855" constant="no"/>
+<attribute name="VALUE" value="1.5UH" constant="no"/>
+</technology>
+<technology name="47UH">
+<attribute name="PROD_ID" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -23711,8 +23720,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="C6" library="SparkFun-Capacitors" deviceset="10UF" device="-0603-6.3V-20%" value="10uF"/>
 <part name="C7" library="SparkFun-Capacitors" deviceset="33UF" device="" technology="20%-6.3V-0805" value="33UF"/>
 <part name="C8" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0603-25V-(+80/-20%)" value="0.1uF"/>
-<part name="C9" library="SparkFun-Capacitors" deviceset="47UF" device="" technology="20%-6.3V-0805" value="47uF"/>
-<part name="L1" library="SparkFun-Coils" deviceset="XFL4020" device=""/>
+<part name="C9" library="SparkFun-Capacitors" deviceset="47UF" device="" technology="20%-6.3V-0805" value="47UF"/>
+<part name="L1" library="SparkFun-Coils" deviceset="XFL4020" device="" value="1.5UH"/>
 <part name="GND7" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="GND8" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="GND9" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
@@ -24692,7 +24701,10 @@ Powers LEDs, 3.3V OUT</text>
 <instance part="GND27" gate="1" x="22.86" y="48.26"/>
 <instance part="SUPPLY26" gate="G$1" x="66.04" y="71.12"/>
 <instance part="SUPPLY27" gate="G$1" x="134.62" y="71.12"/>
-<instance part="U4" gate="G$1" x="109.22" y="66.04"/>
+<instance part="U4" gate="G$1" x="109.22" y="66.04" smashed="yes">
+<attribute name="NAME" x="104.14" y="71.12" size="1.778" layer="95"/>
+<attribute name="VALUE" x="109.22" y="71.12" size="1.778" layer="96"/>
+</instance>
 <instance part="R5" gate="G$1" x="109.22" y="43.18" rot="R90"/>
 <instance part="R12" gate="G$1" x="124.46" y="58.42" rot="R90"/>
 <instance part="GND28" gate="1" x="109.22" y="33.02"/>
