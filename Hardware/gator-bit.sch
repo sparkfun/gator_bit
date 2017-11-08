@@ -21297,7 +21297,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="600OHM">
+<deviceset name="604OHM">
 <gates>
 <gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
 </gates>
@@ -23633,7 +23633,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="C5" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0603-25V-(+80/-20%)" value="0.1uF"/>
 <part name="GND19" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="D13" library="SparkFun-DiscreteSemi" deviceset="DIODE-ZENER" device="-MM3Z3V3T1G" value="3.3V"/>
-<part name="R13" library="SparkFun-Resistors" deviceset="600OHM" device="" technology="OHMS-0603-1/10W-1%" value="604"/>
+<part name="R13" library="SparkFun-Resistors" deviceset="604OHM" device="" technology="OHMS-0603-1/10W-1%" value="604"/>
 <part name="GND22" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="FRAME3" library="SparkFun-Aesthetics" deviceset="FRAME-LETTER" device=""/>
 <part name="SUPPLY1" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
@@ -23643,37 +23643,37 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="SUPPLY7" library="SparkFun-PowerSymbols" deviceset="3.3V" device="" value="3.0V"/>
 <part name="R6" library="SparkFun-Resistors" deviceset="910OHM" device="" technology="OHMS-0603-1/10W-1%" value="910"/>
 <part name="D8" library="SparkFun-DiscreteSemi" deviceset="DIODE-ZENER" device="-MM3Z3V3T1G" value="3.3V"/>
-<part name="R7" library="SparkFun-Resistors" deviceset="600OHM" device="" technology="OHMS-0603-1/10W-1%" value="604"/>
+<part name="R7" library="SparkFun-Resistors" deviceset="604OHM" device="" technology="OHMS-0603-1/10W-1%" value="604"/>
 <part name="GND2" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="D9" library="SparkFun-DiscreteSemi" deviceset="DIODE-ZENER" device="-MM3Z3V3T1G" value="3.3V"/>
 <part name="SUPPLY11" library="SparkFun-PowerSymbols" deviceset="3.3V" device="" value="3.0V"/>
 <part name="R8" library="SparkFun-Resistors" deviceset="910OHM" device="" technology="OHMS-0603-1/10W-1%" value="910"/>
 <part name="D10" library="SparkFun-DiscreteSemi" deviceset="DIODE-ZENER" device="-MM3Z3V3T1G" value="3.3V"/>
-<part name="R9" library="SparkFun-Resistors" deviceset="600OHM" device="" technology="OHMS-0603-1/10W-1%" value="604"/>
+<part name="R9" library="SparkFun-Resistors" deviceset="604OHM" device="" technology="OHMS-0603-1/10W-1%" value="604"/>
 <part name="GND12" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="D11" library="SparkFun-DiscreteSemi" deviceset="DIODE-ZENER" device="-MM3Z3V3T1G" value="3.3V"/>
 <part name="SUPPLY13" library="SparkFun-PowerSymbols" deviceset="3.3V" device="" value="3.0V"/>
 <part name="R10" library="SparkFun-Resistors" deviceset="910OHM" device="" technology="OHMS-0603-1/10W-1%" value="910"/>
 <part name="D12" library="SparkFun-DiscreteSemi" deviceset="DIODE-ZENER" device="-MM3Z3V3T1G" value="3.3V"/>
-<part name="R11" library="SparkFun-Resistors" deviceset="600OHM" device="" technology="OHMS-0603-1/10W-1%" value="604"/>
+<part name="R11" library="SparkFun-Resistors" deviceset="604OHM" device="" technology="OHMS-0603-1/10W-1%" value="604"/>
 <part name="GND13" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="D14" library="SparkFun-DiscreteSemi" deviceset="DIODE-ZENER" device="-MM3Z3V3T1G" value="3.3V"/>
 <part name="SUPPLY14" library="SparkFun-PowerSymbols" deviceset="3.3V" device="" value="3.0V"/>
 <part name="R14" library="SparkFun-Resistors" deviceset="910OHM" device="" technology="OHMS-0603-1/10W-1%" value="910"/>
 <part name="D15" library="SparkFun-DiscreteSemi" deviceset="DIODE-ZENER" device="-MM3Z3V3T1G" value="3.3V"/>
-<part name="R15" library="SparkFun-Resistors" deviceset="600OHM" device="" technology="OHMS-0603-1/10W-1%" value="604"/>
+<part name="R15" library="SparkFun-Resistors" deviceset="604OHM" device="" technology="OHMS-0603-1/10W-1%" value="604"/>
 <part name="GND14" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="D16" library="SparkFun-DiscreteSemi" deviceset="DIODE-ZENER" device="-MM3Z3V3T1G" value="3.3V"/>
 <part name="SUPPLY15" library="SparkFun-PowerSymbols" deviceset="3.3V" device="" value="3.0V"/>
 <part name="R16" library="SparkFun-Resistors" deviceset="910OHM" device="" technology="OHMS-0603-1/10W-1%" value="910"/>
 <part name="D17" library="SparkFun-DiscreteSemi" deviceset="DIODE-ZENER" device="-MM3Z3V3T1G" value="3.3V"/>
-<part name="R17" library="SparkFun-Resistors" deviceset="600OHM" device="" technology="OHMS-0603-1/10W-1%" value="604"/>
+<part name="R17" library="SparkFun-Resistors" deviceset="604OHM" device="" technology="OHMS-0603-1/10W-1%" value="604"/>
 <part name="GND15" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="D18" library="SparkFun-DiscreteSemi" deviceset="DIODE-ZENER" device="-MM3Z3V3T1G" value="3.3V"/>
 <part name="SUPPLY16" library="SparkFun-PowerSymbols" deviceset="3.3V" device="" value="3.0v"/>
 <part name="R18" library="SparkFun-Resistors" deviceset="910OHM" device="" technology="OHMS-0603-1/10W-1%" value="910"/>
 <part name="D19" library="SparkFun-DiscreteSemi" deviceset="DIODE-ZENER" device="-MM3Z3V3T1G" value="3.3V"/>
-<part name="R19" library="SparkFun-Resistors" deviceset="600OHM" device="" technology="OHMS-0603-1/10W-1%" value="604"/>
+<part name="R19" library="SparkFun-Resistors" deviceset="604OHM" device="" technology="OHMS-0603-1/10W-1%" value="604"/>
 <part name="GND16" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="D20" library="SparkFun-DiscreteSemi" deviceset="DIODE-ZENER" device="-MM3Z3V3T1G" value="3.3V"/>
 <part name="SUPPLY17" library="SparkFun-PowerSymbols" deviceset="3.3V" device="" value="3.0V"/>
