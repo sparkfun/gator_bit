@@ -21330,7 +21330,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </connects>
 <technologies>
 <technology name="OHMS-0603-1/10W-1%">
-<attribute name="PROD_ID" value="RES_13860" constant="no"/>
+<attribute name="PROD_ID" value="RES-13860" constant="no"/>
 <attribute name="VALUE" value="910" constant="no"/>
 </technology>
 </technologies>
@@ -21479,7 +21479,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </connects>
 <technologies>
 <technology name="">
-<attribute name="PROD_ID" value="RES-12639" constant="no"/>
+<attribute name="PROD_ID" value="RES-13856" constant="no"/>
 <attribute name="VALUE" value="10.2K" constant="no"/>
 </technology>
 </technologies>
@@ -21498,7 +21498,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </connects>
 <technologies>
 <technology name="OHMS-0603-1/10W-1%">
-<attribute name="PROD_ID" value="RES-XXXXX" constant="no"/>
+<attribute name="PROD_ID" value="RES-13864" constant="no"/>
 <attribute name="VALUE" value="523k" constant="no"/>
 </technology>
 </technologies>
@@ -21887,7 +21887,7 @@ http://www.kemet.com/Lists/ProductCatalog/Attachments/254/KEM_T2005_T491.pdf</de
 </connects>
 <technologies>
 <technology name="20%-6.3V-0805">
-<attribute name="PROD_ID" value="CAP-XXXXX" constant="no"/>
+<attribute name="PROD_ID" value="CAP-13863" constant="no"/>
 <attribute name="VALUE" value="33UF" constant="no"/>
 </technology>
 </technologies>
@@ -22968,38 +22968,38 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <smd name="P$6" x="1" y="-0.005" dx="0.6" dy="0.25" layer="1" roundness="50" rot="R90" stop="no" cream="no"/>
 <smd name="P$5" x="0.5" y="-0.005" dx="0.6" dy="0.25" layer="1" roundness="50" rot="R90" stop="no" cream="no"/>
 <smd name="P$1" x="0" y="2.145" dx="0.6" dy="0.25" layer="1" roundness="50" stop="no" cream="no"/>
-<smd name="P$11" x="1.9875" y="1.895" dx="1.35" dy="0.25" layer="1" roundness="50" stop="no" thermals="no" cream="no"/>
-<smd name="P$9" x="1.9875" y="0.895" dx="1.35" dy="0.25" layer="1" roundness="50" stop="no" thermals="no" cream="no"/>
-<smd name="P$10" x="1.8125" y="1.395" dx="1.7" dy="0.25" layer="1" roundness="50" stop="no" thermals="no" cream="no"/>
+<smd name="P$11" x="1.9875" y="1.895" dx="1.45" dy="0.35" layer="1" roundness="50" stop="no" thermals="no" cream="no"/>
+<smd name="P$9" x="1.9875" y="0.895" dx="1.45" dy="0.35" layer="1" roundness="50" stop="no" thermals="no" cream="no"/>
+<smd name="P$10" x="1.8125" y="1.395" dx="1.8" dy="0.35" layer="1" roundness="50" stop="no" thermals="no" cream="no"/>
 <polygon width="0.05" layer="29">
-<vertex x="-0.25" y="2.2625"/>
-<vertex x="0.25" y="2.2625" curve="-90"/>
-<vertex x="0.2875" y="2.225"/>
-<vertex x="0.2875" y="2.075" curve="-90"/>
-<vertex x="0.25" y="2.0375"/>
-<vertex x="-0.25" y="2.0375" curve="-90"/>
-<vertex x="-0.2875" y="2.075"/>
-<vertex x="-0.2875" y="2.225" curve="-90"/>
+<vertex x="-0.25" y="2.2825"/>
+<vertex x="0.25" y="2.2825" curve="-90"/>
+<vertex x="0.3175" y="2.225"/>
+<vertex x="0.3175" y="2.075" curve="-90"/>
+<vertex x="0.25" y="2.0075"/>
+<vertex x="-0.25" y="2.0075" curve="-90"/>
+<vertex x="-0.3175" y="2.075"/>
+<vertex x="-0.3175" y="2.225" curve="-90"/>
 </polygon>
 <polygon width="0.05" layer="29">
-<vertex x="0.3875" y="2.55"/>
-<vertex x="0.3875" y="3.05" curve="-90"/>
-<vertex x="0.425" y="3.0875"/>
-<vertex x="0.575" y="3.0875" curve="-90"/>
-<vertex x="0.6125" y="3.05"/>
-<vertex x="0.6125" y="2.55" curve="-90"/>
-<vertex x="0.575" y="2.5125"/>
-<vertex x="0.425" y="2.5125" curve="-90"/>
+<vertex x="0.3575" y="2.55"/>
+<vertex x="0.3575" y="3.05" curve="-90"/>
+<vertex x="0.425" y="3.1175"/>
+<vertex x="0.575" y="3.1175" curve="-90"/>
+<vertex x="0.6525" y="3.05"/>
+<vertex x="0.6525" y="2.55" curve="-90"/>
+<vertex x="0.575" y="2.4725"/>
+<vertex x="0.425" y="2.4725" curve="-90"/>
 </polygon>
 <polygon width="0.05" layer="29">
-<vertex x="-0.25" y="1.7625"/>
-<vertex x="0.25" y="1.7625" curve="-90"/>
-<vertex x="0.2875" y="1.725"/>
-<vertex x="0.2875" y="1.575" curve="-90"/>
-<vertex x="0.25" y="1.5375"/>
-<vertex x="-0.25" y="1.5375" curve="-90"/>
-<vertex x="-0.2875" y="1.575"/>
-<vertex x="-0.2875" y="1.725" curve="-90"/>
+<vertex x="-0.25" y="1.7825"/>
+<vertex x="0.25" y="1.7825" curve="-90"/>
+<vertex x="0.3175" y="1.725"/>
+<vertex x="0.3175" y="1.575" curve="-90"/>
+<vertex x="0.25" y="1.4975"/>
+<vertex x="-0.25" y="1.4975" curve="-90"/>
+<vertex x="-0.3175" y="1.575"/>
+<vertex x="-0.3175" y="1.725" curve="-90"/>
 </polygon>
 <polygon width="0.05" layer="29">
 <vertex x="-0.25" y="1.2625"/>
@@ -23022,14 +23022,14 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="-0.2875" y="0.725" curve="-90"/>
 </polygon>
 <polygon width="0.05" layer="29">
-<vertex x="0.8875" y="2.55"/>
-<vertex x="0.8875" y="3.05" curve="-90"/>
-<vertex x="0.925" y="3.0875"/>
-<vertex x="1.075" y="3.0875" curve="-90"/>
-<vertex x="1.1125" y="3.05"/>
-<vertex x="1.1125" y="2.55" curve="-90"/>
-<vertex x="1.075" y="2.5125"/>
-<vertex x="0.925" y="2.5125" curve="-90"/>
+<vertex x="0.8575" y="2.54"/>
+<vertex x="0.8575" y="3.04" curve="-90"/>
+<vertex x="0.925" y="3.1175"/>
+<vertex x="1.075" y="3.1175" curve="-90"/>
+<vertex x="1.1425" y="3.05"/>
+<vertex x="1.1425" y="2.55" curve="-90"/>
+<vertex x="1.085" y="2.4825"/>
+<vertex x="0.935" y="2.4825" curve="-90"/>
 </polygon>
 <polygon width="0.05" layer="29">
 <vertex x="0.8875" y="-0.25"/>
@@ -23050,19 +23050,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="0.6125" y="-0.25" curve="-90"/>
 <vertex x="0.575" y="-0.2875"/>
 <vertex x="0.425" y="-0.2875" curve="-90"/>
-</polygon>
-<polygon width="0.05" layer="29">
-<vertex x="1.375" y="1.9875" curve="90"/>
-<vertex x="1.35" y="1.9625"/>
-<vertex x="1.35" y="1.8375" curve="90"/>
-<vertex x="1.375" y="1.8125"/>
-<vertex x="1.3875" y="1.8125"/>
-<vertex x="1.7125" y="1.8125"/>
-<vertex x="2.55" y="1.8125"/>
-<vertex x="2.5875" y="1.8125" curve="90"/>
-<vertex x="2.625" y="1.85"/>
-<vertex x="2.625" y="1.9625" curve="90"/>
-<vertex x="2.6" y="1.9875"/>
 </polygon>
 <polygon width="0.05" layer="29">
 <vertex x="1.375" y="0.9875" curve="90"/>
@@ -23174,55 +23161,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="1.07" y="3.075" curve="-90"/>
 </polygon>
 <polygon width="0.05" layer="31">
-<vertex x="1.945" y="3.07"/>
-<vertex x="2.0367" y="3.07" curve="-90"/>
-<vertex x="2.1175" y="2.9613"/>
-<vertex x="2.1175" y="2.5854" curve="-90"/>
-<vertex x="2.0521" y="2.52"/>
-<vertex x="1.5033" y="2.52" curve="-90"/>
-<vertex x="1.4175" y="2.5804"/>
-<vertex x="1.4175" y="2.9538" curve="-90"/>
-<vertex x="1.5033" y="3.07"/>
-<vertex x="1.58" y="3.07" curve="-90"/>
-<vertex x="1.6175" y="3.0325"/>
-<vertex x="1.6175" y="2.7425" curve="90"/>
-<vertex x="1.6375" y="2.7225"/>
-<vertex x="1.9025" y="2.7225" curve="90"/>
-<vertex x="1.9175" y="2.7375"/>
-<vertex x="1.9175" y="3.0425" curve="-90"/>
-<vertex x="1.9325" y="3.0575"/>
-<vertex x="1.9325" y="3.0625" curve="-90"/>
-<vertex x="1.935" y="3.065"/>
-<vertex x="1.9375" y="3.065" curve="90"/>
-<vertex x="1.94" y="3.0675" curve="-90"/>
-<vertex x="1.9425" y="3.07"/>
-<vertex x="1.94" y="3.065" curve="90"/>
-<vertex x="1.9225" y="3.0475"/>
-<vertex x="1.9225" y="3.045" curve="-90"/>
-<vertex x="1.92" y="3.0425"/>
-<vertex x="1.92" y="3.03"/>
-</polygon>
-<polygon width="0.05" layer="31">
-<vertex x="1.3375" y="1.97"/>
-<vertex x="1.3375" y="1.82" curve="90"/>
-<vertex x="1.3625" y="1.795"/>
-<vertex x="1.8375" y="1.795" curve="90"/>
-<vertex x="1.8625" y="1.82"/>
-<vertex x="1.8625" y="1.97" curve="90"/>
-<vertex x="1.8375" y="1.995"/>
-<vertex x="1.3625" y="1.995" curve="90"/>
-</polygon>
-<polygon width="0.05" layer="31">
-<vertex x="2.1125" y="1.97"/>
-<vertex x="2.1125" y="1.82" curve="90"/>
-<vertex x="2.1375" y="1.795"/>
-<vertex x="2.6125" y="1.795" curve="90"/>
-<vertex x="2.6375" y="1.82"/>
-<vertex x="2.6375" y="1.97" curve="90"/>
-<vertex x="2.6125" y="1.995"/>
-<vertex x="2.1375" y="1.995" curve="90"/>
-</polygon>
-<polygon width="0.05" layer="31">
 <vertex x="1.3375" y="0.97"/>
 <vertex x="1.3375" y="0.82" curve="90"/>
 <vertex x="1.3625" y="0.795"/>
@@ -23263,51 +23201,84 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="1.9625" y="1.495" curve="90"/>
 </polygon>
 <smd name="P$12" x="1.7678375" y="2.794" dx="0.75" dy="0.6" layer="1" roundness="50" stop="no" cream="no"/>
-<polygon width="0.127" layer="30">
-<vertex x="1.425" y="3.075"/>
-<vertex x="2.125" y="3.075"/>
-<vertex x="2.125" y="2.5125"/>
-<vertex x="1.4125" y="2.5125"/>
-<vertex x="1.4125" y="3.075"/>
-<vertex x="1.5" y="3.075"/>
+<smd name="P$7" x="1.7571625" y="0.006" dx="0.75" dy="0.6" layer="1" roundness="50" rot="R180" stop="no" cream="no"/>
+<polygon width="0.127" layer="29">
+<vertex x="1.51" y="2.93"/>
+<vertex x="1.51" y="2.61"/>
+<vertex x="2.02" y="2.61"/>
+<vertex x="2.02" y="2.98"/>
+<vertex x="1.92" y="2.98"/>
+<vertex x="1.92" y="2.72"/>
+<vertex x="1.61" y="2.72"/>
+<vertex x="1.61" y="2.98"/>
+<vertex x="1.51" y="2.98"/>
+<vertex x="1.51" y="2.92"/>
+</polygon>
+<polygon width="0.127" layer="29">
+<vertex x="2.01" y="-0.14"/>
+<vertex x="2.01" y="0.18"/>
+<vertex x="1.5" y="0.18"/>
+<vertex x="1.5" y="-0.19"/>
+<vertex x="1.6" y="-0.19"/>
+<vertex x="1.6" y="0.07"/>
+<vertex x="1.91" y="0.07"/>
+<vertex x="1.91" y="-0.19"/>
+<vertex x="2.01" y="-0.19"/>
+<vertex x="2.01" y="-0.13"/>
+</polygon>
+<polygon width="0.127" layer="31">
+<vertex x="1.51" y="2.93"/>
+<vertex x="1.51" y="2.61"/>
+<vertex x="2.02" y="2.61"/>
+<vertex x="2.02" y="2.98"/>
+<vertex x="1.92" y="2.98"/>
+<vertex x="1.92" y="2.72"/>
+<vertex x="1.61" y="2.72"/>
+<vertex x="1.61" y="2.98"/>
+<vertex x="1.51" y="2.98"/>
+<vertex x="1.51" y="2.92"/>
+</polygon>
+<polygon width="0.127" layer="31">
+<vertex x="2.01" y="-0.14"/>
+<vertex x="2.01" y="0.18"/>
+<vertex x="1.5" y="0.18"/>
+<vertex x="1.5" y="-0.19"/>
+<vertex x="1.6" y="-0.19"/>
+<vertex x="1.6" y="0.07"/>
+<vertex x="1.91" y="0.07"/>
+<vertex x="1.91" y="-0.19"/>
+<vertex x="2.01" y="-0.19"/>
+<vertex x="2.01" y="-0.13"/>
+</polygon>
+<polygon width="0.05" layer="29">
+<vertex x="1.375" y="1.9875" curve="90"/>
+<vertex x="1.35" y="1.9625"/>
+<vertex x="1.35" y="1.8375" curve="90"/>
+<vertex x="1.375" y="1.8125"/>
+<vertex x="2.5875" y="1.8125" curve="90"/>
+<vertex x="2.625" y="1.85"/>
+<vertex x="2.625" y="1.9625" curve="90"/>
+<vertex x="2.6" y="1.9875"/>
 </polygon>
 <polygon width="0.05" layer="31">
-<vertex x="1.58" y="-0.27"/>
-<vertex x="1.4883" y="-0.27" curve="-90"/>
-<vertex x="1.4075" y="-0.1613"/>
-<vertex x="1.4075" y="0.2146" curve="-90"/>
-<vertex x="1.4729" y="0.28"/>
-<vertex x="2.0217" y="0.28" curve="-90"/>
-<vertex x="2.1075" y="0.2196"/>
-<vertex x="2.1075" y="-0.1538" curve="-90"/>
-<vertex x="2.0217" y="-0.27"/>
-<vertex x="1.945" y="-0.27" curve="-90"/>
-<vertex x="1.9075" y="-0.2325"/>
-<vertex x="1.9075" y="0.0575" curve="90"/>
-<vertex x="1.8875" y="0.0775"/>
-<vertex x="1.6225" y="0.0775" curve="90"/>
-<vertex x="1.6075" y="0.0625"/>
-<vertex x="1.6075" y="-0.2425" curve="-90"/>
-<vertex x="1.5925" y="-0.2575"/>
-<vertex x="1.5925" y="-0.2625" curve="-90"/>
-<vertex x="1.59" y="-0.265"/>
-<vertex x="1.5875" y="-0.265" curve="90"/>
-<vertex x="1.585" y="-0.2675" curve="-90"/>
-<vertex x="1.5825" y="-0.27"/>
-<vertex x="1.585" y="-0.265" curve="90"/>
-<vertex x="1.6025" y="-0.2475"/>
-<vertex x="1.6025" y="-0.245" curve="-90"/>
-<vertex x="1.605" y="-0.2425"/>
-<vertex x="1.605" y="-0.23"/>
+<vertex x="1.3375" y="1.97"/>
+<vertex x="1.3375" y="1.82" curve="90"/>
+<vertex x="1.3625" y="1.795"/>
+<vertex x="1.8375" y="1.795" curve="90"/>
+<vertex x="1.8625" y="1.82"/>
+<vertex x="1.8625" y="1.97" curve="90"/>
+<vertex x="1.8375" y="1.995"/>
+<vertex x="1.3625" y="1.995" curve="90"/>
 </polygon>
-<smd name="P$7" x="1.7571625" y="0.006" dx="0.75" dy="0.6" layer="1" roundness="50" rot="R180" stop="no" cream="no"/>
-<polygon width="0.127" layer="30">
-<vertex x="2.1" y="-0.275"/>
-<vertex x="1.4" y="-0.275"/>
-<vertex x="1.4" y="0.2875"/>
-<vertex x="2.1125" y="0.2875"/>
-<vertex x="2.1125" y="-0.275"/>
-<vertex x="2.025" y="-0.275"/>
+<polygon width="0.05" layer="31">
+<vertex x="2.1125" y="1.97"/>
+<vertex x="2.1125" y="1.82" curve="90"/>
+<vertex x="2.1375" y="1.795"/>
+<vertex x="2.6125" y="1.795" curve="90"/>
+<vertex x="2.6375" y="1.82"/>
+<vertex x="2.6375" y="1.97" curve="90"/>
+<vertex x="2.6125" y="1.995"/>
+<vertex x="2.1375" y="1.995" curve="90"/>
 </polygon>
 </package>
 <package name="SOT23-5">
@@ -23661,7 +23632,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="C4" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0603-25V-(+80/-20%)" value="0.1uF"/>
 <part name="C5" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0603-25V-(+80/-20%)" value="0.1uF"/>
 <part name="GND19" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="13" library="SparkFun-DiscreteSemi" deviceset="DIODE-ZENER" device="-MM3Z3V3T1G" value="3.3V"/>
+<part name="D13" library="SparkFun-DiscreteSemi" deviceset="DIODE-ZENER" device="-MM3Z3V3T1G" value="3.3V"/>
 <part name="R13" library="SparkFun-Resistors" deviceset="600OHM" device="" technology="OHMS-0603-1/10W-1%" value="604"/>
 <part name="GND22" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="FRAME3" library="SparkFun-Aesthetics" deviceset="FRAME-LETTER" device=""/>
@@ -23836,11 +23807,14 @@ GPIO/AIN</text>
 <text x="22.86" y="99.06" size="5.08" layer="97" font="vector">LEDs</text>
 <text x="101.6" y="35.56" size="5.08" layer="97" font="vector">Decoupling</text>
 <text x="154.94" y="43.18" size="5.08" layer="97" font="vector">IO Protection</text>
-<text x="200.914" y="158.496" size="1.778" layer="97">To use speaker Pin0 
+<text x="200.914" y="158.496" size="1.27" layer="97" font="vector">To use speaker Pin0 
 can not be used anymore</text>
-<text x="200.914" y="133.096" size="1.778" layer="97">Battery or external
+<text x="200.914" y="133.096" size="1.524" layer="97" font="vector">Battery or external
 supply</text>
-<text x="198.374" y="112.776" size="1.778" layer="97">Turn on regulated output</text>
+<text x="200.914" y="112.776" size="1.524" layer="97" font="vector">Turn on regulated
+ output</text>
+<text x="160.02" y="170.18" size="1.778" layer="97" font="vector">Vin at Gator Tabs:
+  2.7V - 9V</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
@@ -23888,7 +23862,7 @@ supply</text>
 <instance part="C4" gate="G$1" x="116.84" y="25.4" rot="R180"/>
 <instance part="C5" gate="G$1" x="124.46" y="25.4" rot="R180"/>
 <instance part="GND19" gate="1" x="124.46" y="12.7"/>
-<instance part="13" gate="G$1" x="220.98" y="55.88" rot="R90"/>
+<instance part="D13" gate="G$1" x="220.98" y="55.88" rot="R90"/>
 <instance part="R13" gate="G$1" x="228.6" y="60.96" rot="R180"/>
 <instance part="GND22" gate="1" x="220.98" y="48.26"/>
 <instance part="SUPPLY1" gate="G$1" x="7.62" y="96.52"/>
@@ -23943,8 +23917,13 @@ supply</text>
 <instance part="GND29" gate="1" x="73.66" y="111.76"/>
 <instance part="SUPPLY28" gate="G$1" x="73.66" y="121.92"/>
 <instance part="S2" gate="1" x="208.28" y="142.24"/>
-<instance part="SUPPLY29" gate="G$1" x="203.2" y="144.78"/>
-<instance part="D6" gate="G$1" x="218.44" y="144.78" rot="R180"/>
+<instance part="SUPPLY29" gate="G$1" x="203.2" y="144.78" smashed="yes">
+<attribute name="VALUE" x="203.2" y="147.574" size="1.778" layer="96" align="bottom-center"/>
+</instance>
+<instance part="D6" gate="G$1" x="218.44" y="144.78" smashed="yes" rot="R180">
+<attribute name="NAME" x="218.44" y="148.336" size="1.778" layer="95" font="vector" rot="R180"/>
+<attribute name="VALUE" x="231.14" y="149.352" size="1.778" layer="96" font="vector" rot="R180" align="top-left"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -24097,7 +24076,7 @@ supply</text>
 <pinref part="GND19" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="13" gate="G$1" pin="A"/>
+<pinref part="D13" gate="G$1" pin="A"/>
 <wire x1="220.98" y1="53.34" x2="220.98" y2="50.8" width="0.1524" layer="91"/>
 <pinref part="GND22" gate="1" pin="GND"/>
 </segment>
@@ -24535,7 +24514,7 @@ supply</text>
 <pinref part="D7" gate="G$1" pin="A"/>
 <wire x1="220.98" y1="60.96" x2="218.44" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="218.44" y1="63.5" x2="218.44" y2="60.96" width="0.1524" layer="91"/>
-<pinref part="13" gate="G$1" pin="C"/>
+<pinref part="D13" gate="G$1" pin="C"/>
 <wire x1="220.98" y1="58.42" x2="220.98" y2="60.96" width="0.1524" layer="91"/>
 <junction x="220.98" y="60.96"/>
 <pinref part="R6" gate="G$1" pin="2"/>
@@ -24648,13 +24627,13 @@ supply</text>
 <wire x1="78.74" y1="91.44" x2="248.92" y2="91.44" width="0.1524" layer="97" style="longdash"/>
 <wire x1="147.32" y1="35.56" x2="147.32" y2="88.9" width="0.1524" layer="97" style="longdash"/>
 <wire x1="78.74" y1="91.44" x2="78.74" y2="0" width="0.1524" layer="97" style="longdash"/>
-<text x="160.02" y="167.64" size="2.54" layer="97">5V Regulator
+<text x="160.02" y="167.64" size="2.54" layer="97" font="vector">5V Regulator
 2.7 - 9V
 Buck/Boost Switched</text>
-<text x="10.16" y="78.74" size="2.54" layer="97">3V Regulator
+<text x="10.16" y="78.74" size="2.54" layer="97" font="vector">3V Regulator
 5V input from TPS REG
 Powers Micro:bit only</text>
-<text x="81.28" y="78.74" size="2.54" layer="97">3.3V Regulator
+<text x="81.28" y="78.74" size="2.54" layer="97" font="vector">3.3V Regulator
 5V input from TPS REG
 Powers LEDs, 3.3V OUT</text>
 </plain>
