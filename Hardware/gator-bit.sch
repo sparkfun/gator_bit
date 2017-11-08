@@ -23483,12 +23483,15 @@ in a 2.5 mm x 3 mm QFN package.</description>
 <connect gate="U1" pin="OUT" pad="5"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="PROD_ID" value="VREG-13859" constant="no"/>
+<attribute name="VALUE" value="MIC52053.0V" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
-<deviceset name="GATORBIT_LM317">
+<deviceset name="GATORBIT_LM317" prefix="U">
 <gates>
 <gate name="G$1" symbol="78ADJ-2" x="0" y="0"/>
 </gates>
@@ -23698,7 +23701,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="GND17" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="GND18" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="GND20" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="U3" library="SparkFun-IC-Power" deviceset="V_REG_MIC5205" device="3.0V"/>
+<part name="U3" library="SparkFun-IC-Power" deviceset="V_REG_MIC5205" device="3.0V" value="MIC52053.0V"/>
 <part name="SUPPLY20" library="SparkFun-PowerSymbols" deviceset="5V" device=""/>
 <part name="SUPPLY21" library="SparkFun-PowerSymbols" deviceset="5V" device=""/>
 <part name="SUPPLY22" library="SparkFun-PowerSymbols" deviceset="5V" device=""/>

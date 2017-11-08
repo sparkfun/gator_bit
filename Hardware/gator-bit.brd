@@ -2829,7 +2829,10 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <attribute name="PROD_ID" value="NDUC-13855" x="89.37625" y="37.465" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" value="1.5UH" x="89.37625" y="37.465" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="U3" library="SparkFun-IC-Power" package="SOT23-5" value="V_REG_MIC52053.0V" x="88.07564375" y="53.77528125"/>
+<element name="U3" library="SparkFun-IC-Power" package="SOT23-5" value="MIC52053.0V" x="88.07564375" y="53.77528125">
+<attribute name="VALUE" value="MIC52053.0V" x="88.07564375" y="53.77528125" size="1.778" layer="27" display="off"/>
+<attribute name="PROD_ID" value="VREG-13859" x="88.07564375" y="53.77528125" size="1.778" layer="27" display="off"/>
+</element>
 <element name="C10" library="SparkFun-Capacitors" package="0603" value="0.1uF" x="88.9" y="60.6425" rot="R180">
 <attribute name="PROD_ID" value="CAP-00810" x="88.9" y="60.6425" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
