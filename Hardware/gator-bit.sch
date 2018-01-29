@@ -24179,7 +24179,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <sheets>
 <sheet>
 <plain>
-<text x="238.76" y="7.62" size="2.54" layer="94">v01</text>
+<text x="238.76" y="7.62" size="2.54" layer="94">v02</text>
 <text x="2.54" y="177.8" size="5.08" layer="97" font="vector">Connector</text>
 <text x="76.2" y="129.54" size="1.778" layer="97">20
 19
