@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.5.1">
+<eagle version="7.7.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
-<setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.001" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.001" altunitdist="mil" altunit="inch"/>
+<grid distance="0.00125" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.001" altunitdist="mil" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -231,15 +230,7 @@ In</text>
 <wire x1="78.1304" y1="31.9024" x2="78.1558" y2="31.9024" width="0.254" layer="21"/>
 <wire x1="78.1304" y1="31.9024" x2="79.2734" y2="30.7594" width="0.254" layer="21" curve="-90"/>
 <wire x1="79.2734" y1="30.7594" x2="79.248" y2="26.1874" width="0.254" layer="21"/>
-<wire x1="80.137" y1="24.7396" x2="91.5416" y2="24.7396" width="0.254" layer="21"/>
-<wire x1="92.8116" y1="23.4696" x2="92.8116" y2="10.0838" width="0.254" layer="21"/>
 <text x="77.974925" y="41.241978125" size="1.27" layer="21" font="vector" ratio="15" rot="R180">POWER</text>
-<wire x1="80.137" y1="24.7396" x2="79.248" y2="25.908" width="0.254" layer="21" curve="-90"/>
-<wire x1="91.6686" y1="24.7396" x2="92.8116" y2="23.5966" width="0.254" layer="21" curve="-90"/>
-<wire x1="79.248" y1="26.2382" x2="79.248" y2="25.9842" width="0.254" layer="21"/>
-<wire x1="93.8784" y1="8.9408" x2="93.9546" y2="8.9408" width="0.254" layer="21"/>
-<wire x1="93.9546" y1="8.9408" x2="97.8408" y2="8.9408" width="0.254" layer="21"/>
-<wire x1="93.9546" y1="8.9408" x2="92.8116" y2="10.0838" width="0.254" layer="21" curve="-90"/>
 <wire x1="78.0542" y1="31.9278" x2="78.5114" y2="32.258" width="0.254" layer="21"/>
 <wire x1="78.5114" y1="32.258" x2="78.5114" y2="31.3436" width="0.254" layer="21"/>
 <wire x1="78.5114" y1="31.3436" x2="78.0542" y2="31.9278" width="0.254" layer="21"/>
@@ -247,18 +238,20 @@ In</text>
 <wire x1="13.8684" y1="8.509" x2="21.463" y2="8.509" width="0.254" layer="21"/>
 <wire x1="21.463" y1="8.509" x2="23.0886" y2="9.7536" width="0.254" layer="21" curve="100.388816"/>
 <wire x1="23.0886" y1="9.7536" x2="30.2006" y2="10.0076" width="0.254" layer="21" curve="-198.130762"/>
-<wire x1="36.8554" y1="25.3238" x2="77.4446" y2="25.3238" width="0.254" layer="21"/>
-<wire x1="77.47" y1="31.9024" x2="36.8808" y2="31.8516" width="0.254" layer="21"/>
+<wire x1="33.39465" y1="25.60955" x2="77.47635" y2="25.5778" width="0.254" layer="21"/>
 <wire x1="78.1812" y1="24.5618" x2="78.2828" y2="24.6634" width="0.254" layer="21" curve="90"/>
-<wire x1="77.47" y1="30.9372" x2="77.47" y2="31.9024" width="0.254" layer="21"/>
-<wire x1="77.4192" y1="25.2984" x2="77.4192" y2="26.2636" width="0.254" layer="21"/>
-<wire x1="36.8554" y1="31.0388" x2="36.8554" y2="31.8262" width="0.254" layer="21"/>
 <wire x1="36.8554" y1="31.8262" x2="36.8808" y2="31.8516" width="0.254" layer="21" curve="-90"/>
-<wire x1="36.8554" y1="26.2636" x2="36.8554" y2="25.3238" width="0.254" layer="21"/>
 <wire x1="65.8622" y1="33.6296" x2="67.564" y2="33.6296" width="0.254" layer="21"/>
 <wire x1="67.564" y1="33.6296" x2="67.2592" y2="33.9852" width="0.254" layer="21"/>
 <wire x1="67.2592" y1="33.9852" x2="67.2592" y2="33.3248" width="0.254" layer="21"/>
 <wire x1="67.2592" y1="33.3248" x2="67.564" y2="33.6296" width="0.254" layer="21"/>
+<wire x1="79.248" y1="26.2382" x2="79.248" y2="24.384" width="0.254" layer="21"/>
+<wire x1="79.248" y1="24.384" x2="80.9625" y2="22.6695" width="0.254" layer="21" curve="90"/>
+<wire x1="80.9625" y1="22.6695" x2="90.45575" y2="22.6695" width="0.254" layer="21"/>
+<wire x1="90.45575" y1="22.6695" x2="92.329" y2="20.79625" width="0.254" layer="21" curve="-90"/>
+<wire x1="92.329" y1="20.79625" x2="92.329" y2="10.69975" width="0.254" layer="21"/>
+<wire x1="92.329" y1="10.69975" x2="93.98" y2="9.04875" width="0.254" layer="21" curve="90"/>
+<wire x1="93.98" y1="9.04875" x2="97.8535" y2="9.04875" width="0.254" layer="21"/>
 </plain>
 <libraries>
 <library name="SparkFun-Aesthetics">
@@ -301,184 +294,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="0" y1="-8.89" x2="0" y2="0" width="0.2032" layer="51"/>
 <wire x1="0" y1="-8.89" x2="101.6" y2="-8.89" width="0.2032" layer="51"/>
 <text x="1.27" y="-6.35" size="1.778" layer="51" font="vector" align="top-left">(Add these comments when uploading gerbers.)</text>
-</package>
-<package name="SFE_LOGO_FLAME_.3">
-<description>&lt;h3&gt;SparkFun Flame Logo - 0.3" Height - Silkscreen&lt;/h3&gt;
-&lt;p&gt;SparkFun Flame Logo&lt;/p&gt;
-&lt;p&gt;Devices using:
-&lt;ul&gt;&lt;li&gt;SFE_LOGO_FLAME&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;</description>
-<polygon width="0.01" layer="21">
-<vertex x="4.65" y="6.54"/>
-<vertex x="4.65" y="6.52"/>
-<vertex x="4.66" y="6.47"/>
-<vertex x="4.66" y="6.4"/>
-<vertex x="4.66" y="6.31"/>
-<vertex x="4.63" y="6.22"/>
-<vertex x="4.59" y="6.13"/>
-<vertex x="4.52" y="6.06"/>
-<vertex x="4.41" y="6.02"/>
-<vertex x="4.31" y="6.02"/>
-<vertex x="4.2" y="6.04"/>
-<vertex x="4.09" y="6.08"/>
-<vertex x="3.98" y="6.14"/>
-<vertex x="3.87" y="6.21"/>
-<vertex x="3.76" y="6.28"/>
-<vertex x="3.67" y="6.37"/>
-<vertex x="3.58" y="6.46"/>
-<vertex x="3.51" y="6.57"/>
-<vertex x="3.45" y="6.67"/>
-<vertex x="3.42" y="6.76"/>
-<vertex x="3.41" y="6.86"/>
-<vertex x="3.42" y="6.94"/>
-<vertex x="3.45" y="7.03"/>
-<vertex x="3.5" y="7.11"/>
-<vertex x="3.56" y="7.19"/>
-<vertex x="3.67" y="7.28"/>
-<vertex x="3.8" y="7.35"/>
-<vertex x="3.92" y="7.38"/>
-<vertex x="4.05" y="7.4"/>
-<vertex x="4.15" y="7.4"/>
-<vertex x="4.24" y="7.39"/>
-<vertex x="4.3" y="7.38"/>
-<vertex x="4.32" y="7.38"/>
-<vertex x="4.28" y="7.41"/>
-<vertex x="4.17" y="7.49"/>
-<vertex x="3.99" y="7.59"/>
-<vertex x="3.77" y="7.69"/>
-<vertex x="3.49" y="7.75"/>
-<vertex x="3.19" y="7.77"/>
-<vertex x="2.86" y="7.7"/>
-<vertex x="2.52" y="7.52"/>
-<vertex x="2.26" y="7.3"/>
-<vertex x="2.1" y="7.06"/>
-<vertex x="2.02" y="6.82"/>
-<vertex x="2.02" y="6.56"/>
-<vertex x="2.09" y="6.3"/>
-<vertex x="2.23" y="6.04"/>
-<vertex x="2.42" y="5.78"/>
-<vertex x="2.68" y="5.52"/>
-<vertex x="2.87" y="5.29"/>
-<vertex x="2.97" y="5.07"/>
-<vertex x="2.98" y="4.86"/>
-<vertex x="2.91" y="4.67"/>
-<vertex x="2.78" y="4.51"/>
-<vertex x="2.6" y="4.4"/>
-<vertex x="2.38" y="4.34"/>
-<vertex x="2.14" y="4.34"/>
-<vertex x="1.98" y="4.37"/>
-<vertex x="1.85" y="4.43"/>
-<vertex x="1.74" y="4.51"/>
-<vertex x="1.66" y="4.6"/>
-<vertex x="1.6" y="4.7"/>
-<vertex x="1.58" y="4.8"/>
-<vertex x="1.58" y="4.9"/>
-<vertex x="1.6" y="4.99"/>
-<vertex x="1.65" y="5.06"/>
-<vertex x="1.71" y="5.12"/>
-<vertex x="1.78" y="5.18"/>
-<vertex x="1.85" y="5.22"/>
-<vertex x="1.92" y="5.26"/>
-<vertex x="1.98" y="5.28"/>
-<vertex x="2.01" y="5.3"/>
-<vertex x="2.03" y="5.31"/>
-<vertex x="2.01" y="5.32"/>
-<vertex x="1.96" y="5.33"/>
-<vertex x="1.89" y="5.35"/>
-<vertex x="1.78" y="5.37"/>
-<vertex x="1.66" y="5.38"/>
-<vertex x="1.52" y="5.37"/>
-<vertex x="1.37" y="5.34"/>
-<vertex x="1.2" y="5.29"/>
-<vertex x="1.06" y="5.23"/>
-<vertex x="0.92" y="5.14"/>
-<vertex x="0.8" y="5.03"/>
-<vertex x="0.69" y="4.89"/>
-<vertex x="0.61" y="4.72"/>
-<vertex x="0.54" y="4.52"/>
-<vertex x="0.51" y="4.27"/>
-<vertex x="0.5" y="3.98"/>
-<vertex x="0.5" y="3.5"/>
-<vertex x="0.5" y="3.02"/>
-<vertex x="0.5" y="2.54"/>
-<vertex x="0.5" y="2.06"/>
-<vertex x="0.5" y="1.58"/>
-<vertex x="0.5" y="1.1"/>
-<vertex x="0.5" y="0.62"/>
-<vertex x="0.5" y="0.14"/>
-<vertex x="0.52" y="0.16"/>
-<vertex x="0.57" y="0.23"/>
-<vertex x="0.66" y="0.33"/>
-<vertex x="0.77" y="0.46"/>
-<vertex x="0.9" y="0.62"/>
-<vertex x="1.05" y="0.79"/>
-<vertex x="1.22" y="0.98"/>
-<vertex x="1.4" y="1.17"/>
-<vertex x="1.59" y="1.38"/>
-<vertex x="1.76" y="1.57"/>
-<vertex x="1.92" y="1.73"/>
-<vertex x="2.07" y="1.87"/>
-<vertex x="2.22" y="1.98"/>
-<vertex x="2.38" y="2.06"/>
-<vertex x="2.56" y="2.1"/>
-<vertex x="2.75" y="2.1"/>
-<vertex x="3.14" y="2.1"/>
-<vertex x="3.49" y="2.15"/>
-<vertex x="3.82" y="2.24"/>
-<vertex x="4.13" y="2.37"/>
-<vertex x="4.41" y="2.55"/>
-<vertex x="4.66" y="2.75"/>
-<vertex x="4.89" y="2.99"/>
-<vertex x="5.1" y="3.26"/>
-<vertex x="5.39" y="3.81"/>
-<vertex x="5.54" y="4.36"/>
-<vertex x="5.57" y="4.88"/>
-<vertex x="5.5" y="5.37"/>
-<vertex x="5.35" y="5.8"/>
-<vertex x="5.14" y="6.15"/>
-<vertex x="4.9" y="6.41"/>
-<vertex x="4.64" y="6.55"/>
-</polygon>
-</package>
-<package name="OSHW-LOGO-L">
-<description>&lt;h3&gt;Open-Source Hardware (OSHW) Logo - Large - Silkscreen&lt;/h3&gt;
-&lt;p&gt;Silkscreen logo for open-source hardware designs.&lt;/p&gt;
-&lt;p&gt;Devices using:
-&lt;ul&gt;&lt;li&gt;OSHW_LOGO&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;</description>
-<polygon width="0.15" layer="21">
-<vertex x="0.9209" y="-2.2231" curve="9.497479"/>
-<vertex x="1.2751" y="-2.0407"/>
-<vertex x="2.1548" y="-2.758"/>
-<vertex x="2.758" y="-2.1548"/>
-<vertex x="2.0407" y="-1.2751" curve="18.998791"/>
-<vertex x="2.3446" y="-0.5413"/>
-<vertex x="3.4739" y="-0.4265"/>
-<vertex x="3.4739" y="0.4265"/>
-<vertex x="2.3446" y="0.5413" curve="18.998791"/>
-<vertex x="2.0407" y="1.2751"/>
-<vertex x="2.758" y="2.1548"/>
-<vertex x="2.1548" y="2.758"/>
-<vertex x="1.2751" y="2.0407" curve="18.998791"/>
-<vertex x="0.5413" y="2.3446"/>
-<vertex x="0.4265" y="3.4739"/>
-<vertex x="-0.4265" y="3.4739"/>
-<vertex x="-0.5413" y="2.3446" curve="18.998791"/>
-<vertex x="-1.2751" y="2.0407"/>
-<vertex x="-2.1548" y="2.758"/>
-<vertex x="-2.758" y="2.1548"/>
-<vertex x="-2.0407" y="1.2751" curve="18.998791"/>
-<vertex x="-2.3446" y="0.5413"/>
-<vertex x="-3.4739" y="0.4265"/>
-<vertex x="-3.4739" y="-0.4265"/>
-<vertex x="-2.3446" y="-0.5413" curve="18.998791"/>
-<vertex x="-2.0407" y="-1.2751"/>
-<vertex x="-2.758" y="-2.1548"/>
-<vertex x="-2.1548" y="-2.758"/>
-<vertex x="-1.2751" y="-2.0407" curve="9.497479"/>
-<vertex x="-0.9209" y="-2.2231"/>
-<vertex x="-0.4186" y="-1.0105" curve="-67.504205"/>
-<vertex x="-1.0938" y="0" curve="-247.497204"/>
-<vertex x="0.4186" y="-1.0105"/>
-</polygon>
 </package>
 <package name="SFE_LOGO_NAME_FLAME_.3">
 <description>&lt;h3&gt;SparkFun Font Logo w/ Flame - 0.3" Height - Silkscreen&lt;/h3&gt;
@@ -1548,6 +1363,47 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="24.01" y="14.21"/>
 </polygon>
 </package>
+<package name="OSHW-LOGO-M">
+<description>&lt;h3&gt;Open-Source Hardware (OSHW) Logo - Medium - Silkscreen&lt;/h3&gt;
+&lt;p&gt;Silkscreen logo for open-source hardware designs.&lt;/p&gt;
+&lt;p&gt;Devices using:
+&lt;ul&gt;&lt;li&gt;OSHW_LOGO&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;</description>
+<polygon width="0.0762" layer="21">
+<vertex x="0.6578" y="-1.588" curve="9.499253"/>
+<vertex x="0.9108" y="-1.4576"/>
+<vertex x="1.5392" y="-1.97"/>
+<vertex x="1.97" y="-1.5392"/>
+<vertex x="1.4576" y="-0.9108" curve="19.001165"/>
+<vertex x="1.6747" y="-0.3866"/>
+<vertex x="2.4814" y="-0.3047"/>
+<vertex x="2.4814" y="0.3047"/>
+<vertex x="1.6747" y="0.3866" curve="19.001165"/>
+<vertex x="1.4576" y="0.9108"/>
+<vertex x="1.97" y="1.5392"/>
+<vertex x="1.5392" y="1.97"/>
+<vertex x="0.9108" y="1.4576" curve="19.001165"/>
+<vertex x="0.3866" y="1.6747"/>
+<vertex x="0.3047" y="2.4814"/>
+<vertex x="-0.3047" y="2.4814"/>
+<vertex x="-0.3866" y="1.6747" curve="19.001165"/>
+<vertex x="-0.9108" y="1.4576"/>
+<vertex x="-1.5392" y="1.97"/>
+<vertex x="-1.97" y="1.5392"/>
+<vertex x="-1.4576" y="0.9108" curve="19.001165"/>
+<vertex x="-1.6747" y="0.3866"/>
+<vertex x="-2.4814" y="0.3047"/>
+<vertex x="-2.4814" y="-0.3047"/>
+<vertex x="-1.6747" y="-0.3866" curve="19.001165"/>
+<vertex x="-1.4576" y="-0.9108"/>
+<vertex x="-1.97" y="-1.5392"/>
+<vertex x="-1.5392" y="-1.97"/>
+<vertex x="-0.9108" y="-1.4576" curve="9.499253"/>
+<vertex x="-0.6578" y="-1.588"/>
+<vertex x="-0.299" y="-0.7218" curve="-67.507353"/>
+<vertex x="-0.7813" y="0" curve="-247.497552"/>
+<vertex x="0.299" y="-0.7218"/>
+</polygon>
+</package>
 </packages>
 </library>
 <library name="SparkFun-Electromechanical">
@@ -2601,11 +2457,10 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <param name="slThermalsForVias" value="0"/>
 <param name="dpMaxLengthDifference" value="10mm"/>
 <param name="dpGapFactor" value="2.5"/>
+<param name="checkGrid" value="0"/>
 <param name="checkAngle" value="1"/>
 <param name="checkFont" value="1"/>
 <param name="checkRestrict" value="1"/>
-<param name="checkStop" value="0"/>
-<param name="checkValues" value="0"/>
 <param name="useDiameter" value="13"/>
 <param name="maxErrors" value="50"/>
 </designrules>
@@ -2878,8 +2733,8 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 </element>
 <element name="FD3" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="109.22" y="4.2037"/>
 <element name="U4" library="SparkFun-IC-Power" package="SOT223" value="ADJ REG 1.5A" x="90.4875" y="60.0075" rot="R180">
-<attribute name="PROD_ID" value="VREG-12029" x="90.4875" y="60.0075" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" value="ADJ REG 1.5A" x="90.4875" y="60.0075" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PROD_ID" value="VREG-12029" x="90.4875" y="60.0075" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R5" library="SparkFun-Resistors" package="0603" value="390k" x="96.3168" y="62.8396" rot="R270">
 <attribute name="PROD_ID" value="RES-12024" x="96.3168" y="62.8396" size="1.778" layer="27" rot="R270" display="off"/>
@@ -2891,15 +2746,12 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <attribute name="PROD_ID" value="CONN-11443" x="126.52375" y="21.2725" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="S2" library="SparkFun-Switches" package="SWITCH_DPDT_SMD_AYZ0202" value="" x="96.1263" y="5.0038" rot="R270">
-<attribute name="PROD_ID" value="SWCH-08179" x="121.68505" y="23.26005" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="SF_ID" value="COM-00597" x="121.68505" y="23.26005" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PROD_ID" value="SWCH-08179" x="121.68505" y="23.26005" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="D6" library="SparkFun-DiscreteSemi" package="SOD-323" value="1A/23V/620mV" x="103.66375" y="16.51">
 <attribute name="PROD_ID" value="DIO-11623" x="83.82" y="42.06875" size="1.778" layer="27" display="off"/>
 </element>
-<element name="LOGO4" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_FLAME_.3" value="SFE_LOGO_NAME_FLAME.3_INCH" x="73.50125" y="15.39875" rot="MR0"/>
-<element name="LOGO5" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.3" value="SFE_LOGO_FLAME.3_INCH" x="26.68905" y="33.62325"/>
-<element name="LOGO6" library="SparkFun-Aesthetics" package="OSHW-LOGO-L" value="OSHW-LOGOL" x="109.2581" y="4.2164"/>
 <element name="C10" library="SparkFun-Capacitors" package="0805" value="10uF" x="82.55" y="34.6075" rot="R90">
 <attribute name="PROD_ID" value="CAP-11330" x="82.55" y="34.6075" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
@@ -2919,7 +2771,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <attribute name="PROD_ID" value="CAP-08402" x="95.9612" y="34.6075" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="U3" library="SparkFun-IC-Comms" package="TSSOP14" value="TXB0104" x="26.8986" y="28.5242" rot="R180">
-<attribute name="PROD_ID" value="NA-XXXXX" x="26.8986" y="28.5242" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PROD_ID" value="IC-11329" x="26.8986" y="28.5242" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="D7" library="SparkFun-LED" package="LED-0603" value="RED" x="81.0895" y="37.7952" rot="R90">
 <attribute name="PROD_ID" value="DIO-00819" x="81.0895" y="37.7952" size="1.778" layer="27" rot="R90" display="off"/>
@@ -2946,6 +2798,8 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <element name="F1" library="SparkFun-Fuses" package="1206" value="6V/0.5A" x="81.7372" y="40.5892">
 <attribute name="PROD_ID" value="RES-08585" x="81.7372" y="40.5892" size="1.778" layer="27" display="off"/>
 </element>
+<element name="LOGO1" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_FLAME_.3" value="SFE_LOGO_NAME_FLAME.3_INCH" x="74.93" y="17.78" rot="MR0"/>
+<element name="LOGO2" library="SparkFun-Aesthetics" package="OSHW-LOGO-M" value="OSHW-LOGOM" x="29.21" y="36.83"/>
 </elements>
 <signals>
 <signal name="GND">
