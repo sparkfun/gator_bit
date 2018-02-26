@@ -20571,7 +20571,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </connects>
 <technologies>
 <technology name="">
-<attribute name="PROD_ID" value="IC-11329" constant="no"/>
+<attribute name="PROD_ID" value="IC-13929" constant="no"/>
 <attribute name="VALUE" value="TXB0104"/>
 </technology>
 </technologies>

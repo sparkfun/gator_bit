@@ -3329,7 +3329,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <attribute name="PROD_ID" value="CAP-08402" x="95.9612" y="34.6075" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="U3" library="SparkFun-IC-Comms" package="TSSOP14" value="TXB0104" x="26.8986" y="28.5242" rot="R180">
-<attribute name="PROD_ID" value="IC-11329" x="26.8986" y="28.5242" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PROD_ID" value="IC-13929" x="26.8986" y="28.5242" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="D7" library="SparkFun-LED" package="LED-0603" value="RED" x="79.883" y="37.76345" rot="R90">
 <attribute name="PROD_ID" value="DIO-00819" x="79.883" y="37.76345" size="1.778" layer="27" rot="R90" display="off"/>
