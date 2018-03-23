@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.7.0">
+<eagle version="8.7.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
+<setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
@@ -20939,7 +20940,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <sheets>
 <sheet>
 <plain>
-<text x="238.76" y="7.62" size="2.54" layer="94">v02</text>
+<text x="238.76" y="7.62" size="2.54" layer="94">v10</text>
 <text x="2.54" y="177.8" size="5.08" layer="97" font="vector">Connector</text>
 <text x="76.2" y="129.54" size="1.778" layer="97">20
 19
@@ -21780,7 +21781,7 @@ supply</text>
 <plain>
 <text x="73.66" y="175.26" size="5.08" layer="97" font="vector">Voltage Regulation</text>
 <text x="167.64" y="10.16" size="2.54" layer="94" font="vector">Mary West </text>
-<text x="238.76" y="7.62" size="2.54" layer="94" font="vector">V02</text>
+<text x="238.76" y="7.62" size="2.54" layer="94" font="vector">V10</text>
 <wire x1="132.08" y1="185.42" x2="129.54" y2="185.42" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="0" y1="91.44" x2="248.92" y2="91.44" width="0.1524" layer="97" style="longdash"/>
 <text x="165.1" y="149.86" size="2.54" layer="97" font="vector">5V Regulator
