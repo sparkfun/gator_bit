@@ -22046,7 +22046,7 @@ can not be used anymore</text>
 <sheet>
 <plain>
 <text x="73.66" y="175.26" size="5.08" layer="97" font="vector">Voltage Regulation</text>
-<text x="167.64" y="10.16" size="2.54" layer="94" font="vector">Mary West </text>
+<text x="166.624" y="11.43" size="2.54" layer="94" font="vector">Mary West </text>
 <text x="238.76" y="7.62" size="2.54" layer="94" font="vector">v11</text>
 <wire x1="132.08" y1="185.42" x2="129.54" y2="185.42" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="0" y1="91.44" x2="248.92" y2="91.44" width="0.1524" layer="97" style="longdash"/>
@@ -22058,6 +22058,7 @@ Buck/Boost </text>
 Powers LEDs, 3.3V OUT</text>
 <text x="2.54" y="83.82" size="2.54" layer="97" font="vector">Logic Level conversion for addressable LEDs</text>
 <text x="96.52" y="58.42" size="2.54" layer="97" font="vector">Status LEDs</text>
+<text x="149.352" y="6.858" size="2.54" layer="94" font="vector">Revised by: Andy England</text>
 </plain>
 <instances>
 <instance part="FRAME3" gate="G$1" x="0" y="0"/>
