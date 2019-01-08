@@ -9,6 +9,7 @@ The SparkFun gator:bit is an all-in-one prototyping platform for the micro:bit. 
 
 Repository Contents
 ------------------
+* **/Firmware** - Example code used with gator:bit. While they are compiled HEX codes, you can modify the example code once they are imported into MakeCode editor.
 * **/Hardware** - Eagle design files (.brd, .sch)
 * **/Production** - Production panel files (.brd)
 
