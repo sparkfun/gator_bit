@@ -21369,7 +21369,10 @@ can not be used anymore</text>
 <instance part="R8" gate="G$1" x="215.9" y="162.56"/>
 <instance part="SUPPLY16" gate="G$1" x="208.28" y="167.64"/>
 <instance part="LOGO3" gate="G$1" x="148.844" y="7.112"/>
-<instance part="D18" gate="G$1" x="55.88" y="167.64" rot="R180"/>
+<instance part="D18" gate="G$1" x="55.88" y="167.64" smashed="yes" rot="R180">
+<attribute name="NAME" x="58.42" y="165.608" size="1.778" layer="95" font="vector" rot="R180"/>
+<attribute name="VALUE" x="63.5" y="169.672" size="1.016" layer="96" font="vector" rot="R180" align="top-left"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -22003,7 +22006,7 @@ can not be used anymore</text>
 <plain>
 <text x="2.54" y="177.8" size="5.08" layer="97" font="vector">Voltage Regulation</text>
 <text x="166.624" y="11.43" size="2.54" layer="94" font="vector">Mary West </text>
-<text x="238.76" y="7.62" size="2.54" layer="94" font="vector">v11</text>
+<text x="238.76" y="7.62" size="2.54" layer="94" font="vector">v20</text>
 <wire x1="132.08" y1="185.42" x2="129.54" y2="185.42" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="0" y1="91.44" x2="147.32" y2="91.44" width="0.1524" layer="97" style="longdash"/>
 <text x="165.1" y="149.86" size="2.54" layer="97" font="vector">5V Regulator
