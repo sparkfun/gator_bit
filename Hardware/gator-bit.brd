@@ -164,7 +164,6 @@
 <text x="78.90395" y="90.5475" size="1.778" layer="47" font="vector" ratio="15">* All dimensions
   are in inches</text>
 <text x="4.3182" y="-40.64" size="2.54" layer="51">Solder Mask: Black Gloss</text>
-<text x="97.07145625" y="54.2279375" size="1.778" layer="21" font="vector" ratio="15" rot="R90">3.3V</text>
 <wire x1="0" y1="68.58" x2="0" y2="1.27" width="0.2032" layer="20"/>
 <wire x1="0" y1="1.27" x2="1.27" y2="0" width="0.2032" layer="20" curve="90"/>
 <wire x1="1.27" y1="0" x2="113.03" y2="0" width="0.2032" layer="20"/>
@@ -16404,9 +16403,6 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <errors>
 <approved hash="5,1,16d4c48a39a02e76"/>
 <approved hash="5,1,347afd761472178a"/>
-<approved hash="23,1,51dfc9825eae8eea"/>
-<approved hash="23,1,c4f6e908eefdc303"/>
-<approved hash="23,1,e2121b741b04e262"/>
 </errors>
 </board>
 </drawing>
