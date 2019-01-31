@@ -1,9 +1,9 @@
-SparkFun gator:bit
+SparkFun gator:bit v2.0
 ========================================
 
-![SparkFun gator:bit](https://cdn.sparkfun.com/r/500-500/assets/parts/1/3/5/5/1/15162-SparkFun_Gator-bit-03.jpg)
+![SparkFun gator:bit v2.0](https://cdn.sparkfun.com/r/500-500/assets/parts/1/3/5/5/1/15162-SparkFun_Gator-bit-03.jpg)
 
-[*SparkFun gator:bit (15162)*](https://www.sparkfun.com/products/15162)
+[*SparkFun gator:bit v2.0 (15162)*](https://www.sparkfun.com/products/15162)
 
 The SparkFun gator:bit is an all-in-one prototyping platform for the micro:bit. Each pin is accessible by alligator clip, eliminating the need for breadboard or jumper wires.
 
