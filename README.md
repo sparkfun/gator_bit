@@ -1,9 +1,9 @@
-SparkFun gator:bit v2.0
+SparkFun gator:bit v2
 ========================================
 
-![SparkFun gator:bit v2.0](https://cdn.sparkfun.com/r/500-500/assets/parts/1/3/5/5/1/15162-SparkFun_Gator-bit-03.jpg)
+![SparkFun gator:bit v2](https://cdn.sparkfun.com/r/500-500/assets/parts/1/3/5/5/1/15162-SparkFun_Gator-bit-03.jpg)
 
-[*SparkFun gator:bit v2.0 (15162)*](https://www.sparkfun.com/products/15162)
+[*SparkFun gator:bit v2 (15162)*](https://www.sparkfun.com/products/15162)
 
 The SparkFun gator:bit is an all-in-one prototyping platform for the micro:bit. Each pin is accessible by alligator clip, eliminating the need for breadboard or jumper wires.
 
@@ -14,12 +14,12 @@ Repository Contents
 
 Documentation
 --------------
-* **[Hookup Guide](https://learn.sparkfun.com/tutorials/sparkfun-gatorbit-v20-hookup-guide)** - Basic hookup guide for the gator:bit v2.0.
+* **[Hookup Guide](https://learn.sparkfun.com/tutorials/sparkfun-gatorbit-v20-hookup-guide)** - Basic hookup guide for the gator:bit v2.
 
 Versions
 --------------
-* **[v10](https://github.com/sparkfun/gator_bit/tree/1946f18c255ed24e2dfae9c41c10e22ecbaa3b44)** - Version 1
-* **[v20](https://github.com/sparkfun/gator_bit/)** - Version 2, Updated power handling, output pins now reach a proper voltage.
+* **[v1](https://github.com/sparkfun/gator_bit/tree/1946f18c255ed24e2dfae9c41c10e22ecbaa3b44)** - Version 1
+* **[v2](https://github.com/sparkfun/gator_bit/)** - Version 2, Updated power handling, output pins now reach a proper voltage.
 
 License Information
 -------------------
