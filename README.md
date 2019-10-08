@@ -1,3 +1,8 @@
+**NOTE:** *This version (v1) of the product has been retired from our catalog. If you are looking for more up-to-date info, please check out some of these resources to see how other users are still hacking and improving on this product.*
+* *[Updated Version 2 of the gator:bit](https://github.com/sparkfun/gator_bit/tree/v20)*
+* *[SparkFun Forum](https://forum.sparkfun.com/)*
+* *[Issues Here on GitHub](https://github.com/sparkfun/gator_bit/issues)*
+
 SparkFun gator:bit (v1)
 ========================================
 
@@ -22,7 +27,7 @@ Documentation
 
 Versions
 --------------
-* **[v1](https://github.com/sparkfun/gator_bit/tree/1946f18c255ed24e2dfae9c41c10e22ecbaa3b44)** - Version 1
+* **[v1](https://github.com/sparkfun/gator_bit/tree/1946f18c255ed24e2dfae9c41c10e22ecbaa3b44)** - Version 1 (Retired)
 * **[v2](https://github.com/sparkfun/gator_bit/tree/v20)** - Version 2, Updated power handling, output pins now reach a proper voltage.
 
 License Information
