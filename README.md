@@ -20,6 +20,11 @@ Documentation
 * **[SparkFun 3D Model repo](https://github.com/sparkfun/3D_Models)** - 3D models of SparkFun products. 
 * **[SparkFun Graphical Datasheets](https://github.com/sparkfun/Graphical_Datasheets)** -Graphical Datasheets for various SparkFun products.
 
+Versions
+--------------
+* **[v1](https://github.com/sparkfun/gator_bit/tree/1946f18c255ed24e2dfae9c41c10e22ecbaa3b44)** - Version 1 (Retired)
+* **[v2](https://github.com/sparkfun/gator_bit/tree/v20)** - Version 2, Updated power handling, output pins now reach a proper voltage.
+
 License Information
 -------------------
 
