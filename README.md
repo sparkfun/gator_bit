@@ -1,4 +1,4 @@
-SparkFun gator:bit
+SparkFun gator:bit (v1)
 ========================================
 
 ![SparkFun gator:bit](https://cdn.sparkfun.com/assets/parts/1/2/5/4/0/14484-SparkFun_gator-bit-01.jpg)
