@@ -1,15 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.0.1">
+<eagle version="9.1.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
@@ -27,12 +29,6 @@
 <layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
-<layer number="33" name="tFinish" color="6" fill="3" visible="yes" active="yes"/>
-<layer number="34" name="bFinish" color="6" fill="6" visible="yes" active="yes"/>
-<layer number="35" name="tGlue" color="7" fill="4" visible="yes" active="yes"/>
-<layer number="36" name="bGlue" color="7" fill="5" visible="yes" active="yes"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
@@ -42,19 +38,8 @@
 <layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="51" name="tDocu" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="91" name="Nets" color="2" fill="1" visible="no" active="no"/>
-<layer number="92" name="Busses" color="1" fill="1" visible="no" active="no"/>
-<layer number="93" name="Pins" color="2" fill="1" visible="no" active="no"/>
-<layer number="94" name="Symbols" color="4" fill="1" visible="no" active="no"/>
-<layer number="95" name="Names" color="7" fill="1" visible="no" active="no"/>
-<layer number="96" name="Values" color="7" fill="1" visible="no" active="no"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
 <layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
 <layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
@@ -67,6 +52,15 @@
 <layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
 <layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="no"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
@@ -76,6 +70,12 @@
 <layer number="88" name="SimResults" color="9" fill="1" visible="no" active="no"/>
 <layer number="89" name="SimProbes" color="9" fill="1" visible="no" active="no"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="no" active="no"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="no" active="no"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="no" active="no"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="no" active="no"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="no" active="no"/>
+<layer number="95" name="Names" color="7" fill="1" visible="no" active="no"/>
+<layer number="96" name="Values" color="7" fill="1" visible="no" active="no"/>
 <layer number="97" name="Info" color="7" fill="1" visible="no" active="no"/>
 <layer number="98" name="Guide" color="6" fill="1" visible="no" active="no"/>
 <layer number="99" name="SpiceOrder" color="7" fill="1" visible="no" active="no"/>
@@ -148,8 +148,8 @@
 <layer number="229" name="229bmp" color="7" fill="1" visible="no" active="no"/>
 <layer number="230" name="230bmp" color="7" fill="1" visible="no" active="no"/>
 <layer number="231" name="231bmp" color="7" fill="1" visible="no" active="no"/>
-<layer number="232" name="Eagle3D_PG2" color="7" fill="1" visible="no" active="no"/>
-<layer number="233" name="Eagle3D_PG3" color="7" fill="1" visible="no" active="no"/>
+<layer number="232" name="Eagle3D_PG2" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="233" name="Eagle3D_PG3" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="248" name="Housing" color="7" fill="1" visible="no" active="no"/>
 <layer number="249" name="Edge" color="7" fill="1" visible="no" active="no"/>
 <layer number="250" name="Descript" color="3" fill="1" visible="no" active="no"/>
@@ -164,6 +164,7 @@
 <text x="78.90395" y="90.5475" size="1.778" layer="47" font="vector" ratio="15">* All dimensions
   are in inches</text>
 <text x="4.3182" y="-40.64" size="2.54" layer="51">Solder Mask: Black Gloss</text>
+<text x="97.07145625" y="54.2279375" size="1.778" layer="21" font="vector" ratio="15" rot="R90">3.3V</text>
 <wire x1="0" y1="68.58" x2="0" y2="1.27" width="0.2032" layer="20"/>
 <wire x1="0" y1="1.27" x2="1.27" y2="0" width="0.2032" layer="20" curve="90"/>
 <wire x1="1.27" y1="0" x2="113.03" y2="0" width="0.2032" layer="20"/>
@@ -14972,6 +14973,9 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <param name="checkRestrict" value="1"/>
 <param name="checkStop" value="0"/>
 <param name="checkValues" value="0"/>
+<param name="checkNames" value="1"/>
+<param name="checkWireStubs" value="1"/>
+<param name="checkPolygonWidth" value="0"/>
 <param name="useDiameter" value="13"/>
 <param name="maxErrors" value="50"/>
 </designrules>
@@ -16390,9 +16394,19 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <wire x1="13.97" y1="13.97" x2="13.97" y2="15.24" width="0.254" layer="1"/>
 </signal>
 </signals>
+<mfgpreviewcolors>
+<mfgpreviewcolor name="soldermaskcolor" color="0xC8008000"/>
+<mfgpreviewcolor name="silkscreencolor" color="0xFFFEFEFE"/>
+<mfgpreviewcolor name="backgroundcolor" color="0xFF282828"/>
+<mfgpreviewcolor name="coppercolor" color="0xFFFFBF00"/>
+<mfgpreviewcolor name="substratecolor" color="0xFF786E46"/>
+</mfgpreviewcolors>
 <errors>
 <approved hash="5,1,16d4c48a39a02e76"/>
 <approved hash="5,1,347afd761472178a"/>
+<approved hash="23,1,51dfc9825eae8eea"/>
+<approved hash="23,1,c4f6e908eefdc303"/>
+<approved hash="23,1,e2121b741b04e262"/>
 </errors>
 </board>
 </drawing>
